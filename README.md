@@ -31,3 +31,8 @@ sysctl -n machdep.cpu.brand_string
 ### Software
 - Clover Bootloader
 	- Wiki: https://clover-wiki.zetam.org/Home
+- [createinstallmedia](https://support.apple.com/en-us/HT201372)
+	```
+	sudo /Applications/Install\ macOS\ Sierra.app/Contents/Resources/createinstallmedia --volume /Volumes/Untitled --applicationpath /Applications/Install\ macOS\ Sierra.app
+	```
+- 
