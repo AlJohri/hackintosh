@@ -10,8 +10,12 @@
   - Qualcomm® Atheros Killer E2201 LAN
   - Intel® GbE LAN (Intel 82580 ?, AppleIGB or AppleIntelE1000e ?)
 
-### Drivers
+### Required Drivers
+https://www.tonymacx86.com/resources/categories/kexts.11/
 - ALC1150: https://github.com/toleda/audio_CloverALC
+- HFSPlus.efi (alternative to VBoxHfs-64.efi): https://github.com/JrCs/CloverGrowerPro/blob/master/Files/HFSPlus/X64/HFSPlus.efi
+- FakeSMC.kext
+- NullCPUPowerManagement.kext
 
 ### Which motherboard am I using?
 ```
@@ -51,14 +55,23 @@ https://www.tonymacx86.com/threads/os-x-configuration-tuning-utility-tools.13828
 - [imessage-debug](./software/imessage-debug)
 
 ### People
-- https://github.com/RehabMan
 - https://github.com/toleda
-- https://sourceforge.net/u/apianti/profile/
+	- https://github.com/toleda/audio_CloverALC
+- https://github.com/Mieze
+	- https://github.com/Mieze/AtherosE2200Ethernet
+- https://github.com/kozlek
+	- https://github.com/kozlek/HWSensors
+- https://github.com/theracermaster
+	- https://github.com/theracermaster/MacGen
+- https://github.com/RehabMan
 - https://sourceforge.net/u/slice2009/profile/
+- https://sourceforge.net/u/apianti/profile/
 - https://www.tonymacx86.com/members/macman.209/
 - https://www.tonymacx86.com/members/tonymacx86.3/
 
 ### Guides
+- Clover
+	- https://www.tonymacx86.com/threads/how-to-install-os-x-yosemite-using-clover.144426/
 - iMessage
 	- https://www.tonymacx86.com/threads/how-to-fix-imessage.110471/
 	- https://www.tonymacx86.com/threads/an-idiots-guide-to-imessage.196827/

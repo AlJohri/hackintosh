@@ -1,0 +1,16 @@
+loaded kexts
+
+org.netkas.driver.FakeSMC
+org.hawsensors.driver.CPUSensors
+org.hawsensors.driver.ACPISensors
+org.hawsensors.driver.GPUSensors
+org.hawsensors.driver.LPCSensors
+com.insanelymac.AtherosE2200Ethernet
+
+kexts in library extensions folder
+
+realtekALC.kext
+AtherosE2200Ethernet.kext
+FameSMC.kext
+AppleIGB.kext
+AHCI_3rdParty_SATA.kext
