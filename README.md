@@ -1,6 +1,6 @@
 # hackintosh
 
-### Components
+### Hardware
 - Intel(R) Core(TM) i7-4790K CPU @ 4.00GHz
 - [Samsung SSD 840 EVO 250GB](http://www.samsung.com/global/business/semiconductor/minisite/SSD/global/html/ssd840evo/overview.html)
 - [NVIDIA GeForce GTX 760 2048 MB](http://www.geforce.com/hardware/desktop-gpus/geforce-gtx-760)
@@ -9,6 +9,9 @@
   - Marvell 88SE9172 Controller GSATA3 6~7
   - Qualcomm® Atheros Killer E2201 LAN
   - Intel® GbE LAN (Intel 82580 ?, AppleIGB or AppleIntelE1000e ?)
+
+### Drivers
+- ALC1150: https://github.com/toleda/audio_CloverALC
 
 ### Which motherboard am I using?
 ```
@@ -20,7 +23,21 @@ ioreg -arw0 -d1 -c FakeSMCKeyStore | xpath "concat(//key[text() = 'manufacturer'
 sysctl -n machdep.cpu.brand_string
 ```
 
+### How do I create a vanilla bootable USB for macOS?
+Use the [createinstallmedia](https://support.apple.com/en-us/HT201372) tool. Assuming you're on Sierra and your USB is called "Untitled":
+
+```
+sudo /Applications/Install\ macOS\ Sierra.app/Contents/Resources/createinstallmedia --volume /Volumes/Untitled --applicationpath /Applications/Install\ macOS\ Sierra.app
+```
+
+### How do I see which kexts are currently loaded?
+```
+kextstat
+```
+
 ### Benchmarks Tools
+https://www.tonymacx86.com/threads/os-x-configuration-tuning-utility-tools.138280/
+
 - Geekbench
 - Unigine Heaven
 - LuxMark v2
@@ -29,21 +46,23 @@ sysctl -n machdep.cpu.brand_string
 - HWMonitor
 
 ### Software
-- Clover Bootloader
-	- Wiki: https://clover-wiki.zetam.org/Home
-	- Source: https://sourceforge.net/projects/cloverefiboot/
-	- Related Software:
-		- EDK2
-			- Website: http://www.tianocore.org/edk2/
-			- Source: https://github.com/tianocore/edk2
-		- DUET
-			- Clover is based on this software and its related to / might be part of EDK2. I think its also created by the tianocore team.
-			- This software seems to be dead now and superceeded by Clover. It used to support only Linux and Windows where as Clover supports all three.
-		- rEFInd
-			- Website: http://www.rodsbooks.com/refind/index.html
-			- Source: https://sourceforge.net/p/refind/code/ci/master/tree/
-- [createinstallmedia](https://support.apple.com/en-us/HT201372)
-	```
-	sudo /Applications/Install\ macOS\ Sierra.app/Contents/Resources/createinstallmedia --volume /Volumes/Untitled --applicationpath /Applications/Install\ macOS\ Sierra.app
-	```
-- 
+- [clover](./software/clover)
+- [efi-mounter](./software/efi-mounter)
+- [imessage-debug](./software/imessage-debug)
+
+### People
+- https://github.com/RehabMan
+- https://github.com/toleda
+- https://sourceforge.net/u/apianti/profile/
+- https://sourceforge.net/u/slice2009/profile/
+- https://www.tonymacx86.com/members/macman.209/
+- https://www.tonymacx86.com/members/tonymacx86.3/
+
+### Guides
+- iMessage
+	- https://www.tonymacx86.com/threads/how-to-fix-imessage.110471/
+	- https://www.tonymacx86.com/threads/an-idiots-guide-to-imessage.196827/
+
+### Tools
+- EveryMac Lookup
+	- http://www.everymac.com/ultimate-mac-lookup/
