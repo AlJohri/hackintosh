@@ -1,6 +1,7 @@
 # Clover Bootloader
 
 - Wiki: https://clover-wiki.zetam.org/Home
+	- Configuration: https://clover-wiki.zetam.org/Configuration
 - Source: https://sourceforge.net/projects/cloverefiboot/
 - Related Software:
 	- EDK2
