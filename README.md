@@ -120,3 +120,7 @@ https://www.tonymacx86.com/threads/os-x-configuration-tuning-utility-tools.13828
 ### Tools
 - EveryMac Lookup
 	- http://www.everymac.com/ultimate-mac-lookup/
+
+### Similar Builds
+	- https://github.com/reynardfox/z97x-ud5h
+	- https://www.tonymacx86.com/threads/success-build-macos-sierra-on-gigabyte-z97x-ud5h-i7-4770k-16gb-ram-gtx-760.215548/
