@@ -32,6 +32,37 @@ sysctl -n machdep.cpu.brand_string
 kextstat
 ```
 
+### What does each bootflag mean?
+- http://www.fitzweekly.com/2016/04/hackintosh-boot-flags.html
+- http://osx86.transformnews.com/osx-boot-flags/
+
+```
+darkwake=0 
+Disable wake up of certain parts of your Mac from sleep, while leaving other parts in sleep mode. This feature often messes up sleep on Hackintoshes. Enter  darkwake=1 to turn it on, if turning it off doesn’t do the trick). if your verbose boot is freezing  be sure to remove SleepEnabler.kext completely by deleting it from either /Extra/Extensions or /System/Library/Extensions in your hard drive.
+
+debug=0x100 or debug=0x144
+Turns on debug mode. If you get a kernel panic use either of these boot flags, and  you’ll see a debug screen full of code instead of a kernel panic message.
+
+dart=0
+If you can’t boot with OS X and VT-x/VT-d enabled in BIOS, use this flag (UEFI BIOS).
+
+no-zp
+Zone Postponing: (use if hanging)
+
+http://www.insanelymac.com/forum/topic/296726-what-they-are-for-these-flagsarguments/
+slide=0 is for boot.efi so it may be used only with Clover.
+The flag mean an offset to load kernel and it is only way to boot by American Megatrend UEFI.
+dart=0 in Chameleon may be replace by Clover's
+		<key>DropTables</key>
+		<array>
+			<dict>
+				<key>Signature</key>
+				<string>DMAR</string>
+			</dict>
+for eliminate problem with vt-d 
+
+```
+
 ### Which Mac Version to use?
 Should probably use `iMac15,1` with Devil's Canyon. See [How To Setup The Config.plist](https://www.reddit.com/r/hackintosh/comments/68p1e2/ramblings_of_a_hackintosher_a_sorta_brief_vanilla/).
 
