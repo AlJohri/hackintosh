@@ -1,4 +1,4 @@
-# hackintosh
+# atul
 
 ### Hardware
 - [Intel(R) Core(TM) i7-4790K CPU (Devil's Canyon)](http://ark.intel.com/products/80807/Intel-Core-i7-4790K-Processor-8M-Cache-up-to-4_40-GHz)

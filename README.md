@@ -1,3 +1,5 @@
+# hackintosh
+
 ### Which motherboard am I using?
 ```
 ioreg -arw0 -d1 -c FakeSMCKeyStore | xpath "concat(//key[text() = 'manufacturer']/following-sibling::string[1], ' ', //key[text() = 'product-name']/following-sibling::string[1])" 2>/dev/null
