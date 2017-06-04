@@ -56,3 +56,6 @@ mv "/Volumes/HWSensors Binaries v6.25.1426/FakeSMC.kext/"
 
 1. https://github.com/Piker-Alpha/ssdtPRGen.sh
 
+### Similar Builds
+	- https://github.com/reynardfox/z97x-ud5h
+	- https://www.tonymacx86.com/threads/success-build-macos-sierra-on-gigabyte-z97x-ud5h-i7-4770k-16gb-ram-gtx-760.215548/

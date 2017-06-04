@@ -83,6 +83,8 @@ https://www.tonymacx86.com/threads/os-x-configuration-tuning-utility-tools.13828
 ### Guides
 - (May 2, 2017) Close to Vanilla Install
 	- https://www.reddit.com/r/hackintosh/comments/68p1e2/ramblings_of_a_hackintosher_a_sorta_brief_vanilla/
+- Unibeast
+	- https://www.tonymacx86.com/threads/unibeast-install-macos-sierra-on-any-supported-intel-based-pc.200564/
 - Clover
 	- https://www.tonymacx86.com/threads/how-to-install-os-x-yosemite-using-clover.144426/
 - iMessage
@@ -94,7 +96,3 @@ https://www.tonymacx86.com/threads/os-x-configuration-tuning-utility-tools.13828
 ### Tools
 - EveryMac Lookup
 	- http://www.everymac.com/ultimate-mac-lookup/
-
-### Similar Builds
-	- https://github.com/reynardfox/z97x-ud5h
-	- https://www.tonymacx86.com/threads/success-build-macos-sierra-on-gigabyte-z97x-ud5h-i7-4770k-16gb-ram-gtx-760.215548/
