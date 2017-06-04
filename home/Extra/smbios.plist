@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SMfamily</key>
+	<string>Mac Pro</string>
+	<key>SMproductname</key>
+	<string>MacPro3,1</string>
+	<key>SMboardproduct</key>
+	<string>Mac-F42C88C8</string>
+	<key>SMserial</key>
+	<string>G88451235J4</string>
+	<key>SMbiosversion</key>
+	<string>MultiBeast.tonymacx86.com</string>
+</dict>
+</plist>
