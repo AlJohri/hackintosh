@@ -1,5 +1,7 @@
 # atul
 
+Latest Benchmark: https://browser.geekbench.com/v4/cpu/3336071
+
 ### Hardware
 - [Intel(R) Core(TM) i7-4790K CPU (Devil's Canyon)](http://ark.intel.com/products/80807/Intel-Core-i7-4790K-Processor-8M-Cache-up-to-4_40-GHz)
 - [Samsung SSD 840 EVO 250GB](http://www.samsung.com/global/business/semiconductor/minisite/SSD/global/html/ssd840evo/overview.html)
