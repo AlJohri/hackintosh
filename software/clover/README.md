@@ -1,5 +1,6 @@
 # Clover Bootloader
 
+- Latest Builds: https://github.com/Dids/clover-builder/releases
 - Wiki: https://clover-wiki.zetam.org/Home
 	- Configuration: https://clover-wiki.zetam.org/Configuration
 - Source: https://sourceforge.net/projects/cloverefiboot/

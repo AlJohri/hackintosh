@@ -4,53 +4,53 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Resources/AHCI_3rdParty_SATA.pkg</key>
+		<key>Resources/AHCI_3rdParty_SATA-v0.6.pkg</key>
 		<data>
-		4Y9xYb1DNlMWuRi2AuHWccuUzWo=
+		ohlBGIr5JuJ+dlihpZb7AJJ0oCY=
 		</data>
-		<key>Resources/AHCI_3rdParty_eSATA.pkg</key>
+		<key>Resources/AHCI_3rdParty_eSATA-v0.5.pkg</key>
 		<data>
-		Bkk4vOQdpITmJTj8suuI4YD4Sdc=
+		VWwphbsPF1hjFXxZKsn5o6mh5/s=
 		</data>
-		<key>Resources/AHCI_Intel_Generic_SATA.pkg</key>
+		<key>Resources/AHCI_Intel_Generic_SATA-v0.4.pkg</key>
 		<data>
-		ggVXT5li7L9Uqjn2093iOBq2LgA=
+		RI+l7XoEbQzMC7hxAwR59uC1hfE=
+		</data>
+		<key>Resources/AppleALC-v1.3.3.pkg</key>
+		<data>
+		+upAPGvgJ34MeKxRDg7SdhQMYxI=
 		</data>
 		<key>Resources/AppleIGB-v5.2.9.4.pkg</key>
 		<data>
-		cM76/0Bx6E9dyVaOBNn69NID5lQ=
+		K1jVKoTRGPL/gFqAIlpUuMXbjB4=
 		</data>
 		<key>Resources/AppleIGB-v5.3.5.3.pkg</key>
 		<data>
-		pTaKh+pzUcCqU9YRsinLq40mRX0=
+		UM2Jvk2tx5/44f7/jje6LqtPeck=
 		</data>
 		<key>Resources/AppleIntelE1000e-v3.2.4.2.pkg</key>
 		<data>
-		GikoAISG8W6yHueE0ti0P+1rUGU=
+		DAieC3oWJKExvm5WmDpY765NV8I=
 		</data>
-		<key>Resources/AppleIntelE1000e-v3.3.1.pkg</key>
+		<key>Resources/AppleIntelE1000e-v3.3.6.pkg</key>
 		<data>
-		VgkSHtj0ikocyNF+ijP47EB8H3c=
-		</data>
-		<key>Resources/AppleIntelE1000e-v3.3.3.pkg</key>
-		<data>
-		V3bWUh2sUmoHe81gP7oXqyxPcaM=
+		xYgbdLfBcmkHFvbQPxujfosjIB8=
 		</data>
 		<key>Resources/AtherosE2200Ethernet-v2.0.1.pkg</key>
 		<data>
-		vZVVL7N9pBmF2LtHKmwj2SCmcQ0=
+		wduMcPQb6tG9kZokR+RlsdpkN28=
 		</data>
 		<key>Resources/AtherosE2200Ethernet-v2.1.0.pkg</key>
 		<data>
-		qAObfGVitsngynNFKx9YJTL/yR8=
+		jO32cfNmGKebMQmLDscKKYVUiPU=
 		</data>
-		<key>Resources/AtherosE2200Ethernet-v2.2.0.pkg</key>
+		<key>Resources/AtherosE2200Ethernet-v2.2.2.pkg</key>
 		<data>
-		Q4MGLesPTOAhzaweReLGZmdyngk=
+		IRr5JIzY1YpjMZpwuZ/q2AqW4J4=
 		</data>
 		<key>Resources/Audio.dict</key>
 		<data>
-		a0+7/UaURMVoP66pnQ7vHK1iKKo=
+		G2MS1pYqppeVUdUssclFC4C1scc=
 		</data>
 		<key>Resources/BootVolume</key>
 		<data>
@@ -58,163 +58,95 @@
 		</data>
 		<key>Resources/Bootloaders.dict</key>
 		<data>
-		0fxj6S8lPqqc96hUlxeWsGix7ok=
+		LZjdYJtvFp9FyXhjtficMaCdFMs=
 		</data>
 		<key>Resources/BootloadersView.nib</key>
 		<data>
-		s/qDOLlns756i5BegW8GoiSIIeU=
+		L4Ql1OSqG5s/LVn3adlHyVsqxjc=
 		</data>
 		<key>Resources/BuildView.nib</key>
 		<data>
-		nCYtbFy+x12UVyuxpd80iQToh34=
-		</data>
-		<key>Resources/Clover-100-200-HDEF-Patch.pkg</key>
-		<data>
-		8JyBd1gOd4sJx7QKqzNmtQlSoJU=
-		</data>
-		<key>Resources/Clover-ALC1150.pkg</key>
-		<data>
-		3Nbace8bQM7fDb2LcpzlU+fxxb4=
-		</data>
-		<key>Resources/Clover-ALC1220.pkg</key>
-		<data>
-		mEOcDiwusf9xLnFI2yIsMLc53nM=
-		</data>
-		<key>Resources/Clover-ALC1220A.pkg</key>
-		<data>
-		kageHyA0HPB+IcuKvJQ+BT8vX2s=
-		</data>
-		<key>Resources/Clover-ALC269.pkg</key>
-		<data>
-		zV9am/fVCsVl+EZZPnLtPlaND/c=
-		</data>
-		<key>Resources/Clover-ALC283.pkg</key>
-		<data>
-		EtLIaKjH3NctaWj7qY1xFLRx2SE=
-		</data>
-		<key>Resources/Clover-ALC885.pkg</key>
-		<data>
-		jYe2Ki2WIebchoPBjcUXU4a6Gp8=
-		</data>
-		<key>Resources/Clover-ALC887.pkg</key>
-		<data>
-		UmDa1l6be8KCpRBn4HmXpTK2fgQ=
-		</data>
-		<key>Resources/Clover-ALC887_Legacy.pkg</key>
-		<data>
-		ZyiieXBL4mMaM8ZTFcsEzuDx9g0=
-		</data>
-		<key>Resources/Clover-ALC888.pkg</key>
-		<data>
-		gdthEgC6bUX/E3sfzDpOHhz8+pI=
-		</data>
-		<key>Resources/Clover-ALC888_Legacy.pkg</key>
-		<data>
-		c8uwP/8mbvJrS8V0t/E7VfSRXSQ=
-		</data>
-		<key>Resources/Clover-ALC889.pkg</key>
-		<data>
-		IrNdj4rqJfWItrXCoBe7LgJJRrs=
-		</data>
-		<key>Resources/Clover-ALC892.pkg</key>
-		<data>
-		slD0sdCwstwdFeol/1HOfir5RNk=
-		</data>
-		<key>Resources/Clover-ALC898.pkg</key>
-		<data>
-		AHQziZ4uedl7P7KxGptivk49OOg=
+		kPqu6FbTs26FZTIPt9I3Y/aiAR8=
 		</data>
 		<key>Resources/Clover-AppleTyMCEDriver.pkg</key>
 		<data>
-		rY+sVKLQOIL//B08YcJfsoIbGCI=
+		UjOlXnHgXQniS16pze1a35pViz4=
 		</data>
-		<key>Resources/Clover-HD3000-Graphics.pkg</key>
+		<key>Resources/Clover-CAVS-HDEF-Patch.pkg</key>
 		<data>
-		3lz7MaC+3GcjLpH33Nj90bN9Va4=
+		wb1QfNb6BCp6fzMGZ/A+HUiJr3M=
 		</data>
-		<key>Resources/Clover-HD530-HDEF-Patch.pkg</key>
+		<key>Resources/Clover-Coffee-Lake-HD630-Graphics.pkg</key>
 		<data>
-		33fvouyOOGXRUGl0SBaPBdoc+Wc=
+		1/MaGF//mZ1zRNmoQdMvJ1XpjI8=
 		</data>
-		<key>Resources/Clover-HD5xx-Graphics.pkg</key>
+		<key>Resources/Clover-HDAS-HDEF-Patch.pkg</key>
 		<data>
-		jRHxi1Z3YWx2PRAO7+ORTP5cgZo=
-		</data>
-		<key>Resources/Clover-HD6xx-Graphics.pkg</key>
-		<data>
-		ZNpSUEC3ETPwl0rk85zebH7lzsY=
+		teUWQrwryCC7P6xTiGyOZxjjKNA=
 		</data>
 		<key>Resources/Clover-NVIDIA-Web.pkg</key>
 		<data>
-		EcXt/uXvVDTcRaHCmw2Vki5DA/c=
+		OC3zWfBjK7U2aMsFZolAHgqEuvk=
 		</data>
-		<key>Resources/Clover-USB-Port-Limit-Sierra-100-Series.pkg</key>
+		<key>Resources/Clover-Remove-XHCI-USB-Port-Limit-10.14.1.pkg</key>
 		<data>
-		G4Vp+ZxN35mAjPDIqDG47ur5Ygo=
+		8BYa1nrV95cHJw6oVDKOYtwvOxw=
 		</data>
-		<key>Resources/Clover-USB-Port-Limit-Sierra-200-Series.pkg</key>
+		<key>Resources/Clover_v2.4k_r4769-Legacy.pkg</key>
 		<data>
-		Nzz60REYz3j3T+4JFmxvMP9grn4=
+		kWPSnTFwA5SB9Q8Bm72D7UZd0gw=
 		</data>
-		<key>Resources/Clover-USB-Port-Limit-Sierra-9-Series.pkg</key>
+		<key>Resources/Clover_v2.4k_r4769-UEFI-EmuNVR.pkg</key>
 		<data>
-		9+vrLHVm+Fic7AAAm7egch4Hj/w=
+		XcXbLFQ81yQC90MaELc5ZeutJ5k=
 		</data>
-		<key>Resources/Clover_v2.4k_r4063-Legacy.pkg</key>
+		<key>Resources/Clover_v2.4k_r4769-UEFI.pkg</key>
 		<data>
-		0HqiPwP0nwNPAPjlPrzZ3tDS69Y=
-		</data>
-		<key>Resources/Clover_v2.4k_r4063-UEFI-EmuNVR.pkg</key>
-		<data>
-		I04dhcOqs8kAhCFw2SOPxo+JxTs=
-		</data>
-		<key>Resources/Clover_v2.4k_r4063-UEFI.pkg</key>
-		<data>
-		QxYV1EYdhzHUMqbGELkv+IbNs9o=
+		zabGcQYNYkG6UxmnicDlKbrsvaY=
 		</data>
 		<key>Resources/Credits.html</key>
 		<data>
-		y2CtLQTte9otiwpgQMupKNYYIHw=
+		jt6E5Ys9+bdhFC7unJYGsJi3Zu8=
 		</data>
 		<key>Resources/CustomizeView.nib</key>
 		<data>
-		DQNKpUQ0Na5OUWVaURk6UqC3dGQ=
+		w57ov3W6www40juddOW+ZRbpHrs=
 		</data>
 		<key>Resources/Disk.dict</key>
 		<data>
-		S2x/GNMoblUqtRQfvl+uVD3RGE8=
+		9zDBATu4b1z9Zi571pwhWuI4ByI=
 		</data>
 		<key>Resources/DriversView.nib</key>
 		<data>
-		/IlsLA1/I+zpYY60m/a3yjaRsdo=
+		F1l8jadwrWlFEW9uFIckq94hgq8=
 		</data>
 		<key>Resources/FailView.nib</key>
 		<data>
-		Mbk0c73X1wSzF2DYwP456S29w1k=
+		vuK9wv6zz/hX57Y7emnkdf6MQ2I=
 		</data>
-		<key>Resources/FakePCIID_XHCIMux-v1.3.6.pkg</key>
+		<key>Resources/FakePCIID_XHCIMux-v1.3.15.pkg</key>
 		<data>
-		Rq5r/eFKvCIsOFMA4Uu6fc04bnY=
+		URc2xa0jsYaUcNZxNNUGGuUJiVs=
 		</data>
-		<key>Resources/FakeSMC-HWMonitor-v6.25-332-gf3a8525c.1758.pkg</key>
+		<key>Resources/FakeSMC-HWMonitor-v6.26-357-gceb835ea.1800.pkg</key>
 		<data>
-		tpcZ+FDc3Gii5iduV97h+lQwJ/E=
+		HqFu52KFZzRiCPwqogpPBzCjCzo=
 		</data>
-		<key>Resources/FakeSMC-Plugins-v6.25-332-gf3a8525c.1758.pkg</key>
+		<key>Resources/FakeSMC-Plugins-v6.26-357-gceb835ea.1800.pkg</key>
 		<data>
-		LQq1XT7G1WJiknRCvuyLsUrKbMs=
+		zzYLaXSCC6pV+OZ+uU3ER8PieS0=
 		</data>
-		<key>Resources/FakeSMC-v6.25-332-gf3a8525c.1758.pkg</key>
+		<key>Resources/FakeSMC-v6.26-357-gceb835ea.1800.pkg</key>
 		<data>
-		WuG9XqBmcM4Or4g+FmZi1+MzM8s=
+		jflP7h3ImzDw/YyOmpUPNLWkvwg=
 		</data>
 		<key>Resources/GenericUSBXHCI-v1.2.11.pkg</key>
 		<data>
-		qlZWnZe8hvaovwD+w1B/s1H8p7o=
+		VWXtzAgIIkBMXAjo8kRa4jVmmgg=
 		</data>
 		<key>Resources/Graphics.dict</key>
 		<data>
-		VT4x8LAKMkWsO+L8z82Ac6jtYXU=
+		Cc7a4b3Xv/aVAX7viFEHeCSk6I8=
 		</data>
 		<key>Resources/InjectATI</key>
 		<data>
@@ -226,123 +158,91 @@
 		</data>
 		<key>Resources/InstallView.nib</key>
 		<data>
-		3qUdWZXL54u2hdbXV3zR1iVd6Lw=
+		JwPKtbbNtr5JZ63RhrHEklXZHTw=
 		</data>
 		<key>Resources/IntelMausiEthernet-v2.1.0.pkg</key>
 		<data>
-		9Nfx2tGsQ+0a2TC1bve07JtkiBc=
+		KF0KjFjayVicW3+WdPuftGHdbIg=
 		</data>
 		<key>Resources/IntelMausiEthernet-v2.2.0.pkg</key>
 		<data>
-		pv8jayMvUNUlFf5kJyMLHm3oG5U=
+		t+kdRzNhf67rEz+vvJJMiEdCc1k=
 		</data>
-		<key>Resources/IntelMausiEthernet-v2.2.1d1.pkg</key>
+		<key>Resources/IntelMausiEthernet-v2.3.0.pkg</key>
 		<data>
-		/sopzU+shNUrMtZNw6NBWJEVwBY=
+		Ps8wBYximIsDlZiCEX5JbBSW8rE=
+		</data>
+		<key>Resources/IntelMausiEthernet-v2.4.0.pkg</key>
+		<data>
+		7zDB9yloTw3AlmDL4Ct3GTIW7hg=
 		</data>
 		<key>Resources/LegacyBoot.dict</key>
 		<data>
-		FsRFRgxqxEOobP8Sufe/zX4Ivu4=
+		rZbEMsZOx9CY4Lj3CRxBJkl0fI4=
 		</data>
 		<key>Resources/MacBookAir5,2</key>
 		<data>
-		G6V9RGl/iZDNZ7fr9ECtee+JQ2w=
+		AjblENxNXFle/yp3l3EpRXCzAcs=
 		</data>
 		<key>Resources/MacBookAir6,2</key>
 		<data>
-		devgG75GOns+X0iZZmx8qH7rVcA=
+		JD1y3kLK4RTDSXON4uK4lAzSZoU=
 		</data>
 		<key>Resources/MacBookPro10,1</key>
 		<data>
-		aeFyNp7nNfDlyw2Nee54VDEa09E=
+		D2rWKhW7tdrdVxEulo9/yGnSu3k=
 		</data>
 		<key>Resources/MacBookPro11,1</key>
 		<data>
-		25t6oyqYKVpCFQZROyPr5J6s7zo=
+		nf8lgEn7g1u5vSIzDHmlW4CjkPk=
 		</data>
 		<key>Resources/MacBookPro11,2</key>
 		<data>
-		0dA64SHBNgvfCDJ90Kh3QRE6uUU=
-		</data>
-		<key>Resources/MacBookPro6,1</key>
-		<data>
-		YljeNmErcC+A9xOgAZgoQf5kgTs=
-		</data>
-		<key>Resources/MacBookPro6,2</key>
-		<data>
-		P7cX0SXeNUObz6ZlM92v4Sf0kFU=
-		</data>
-		<key>Resources/MacBookPro8,1</key>
-		<data>
-		MVsWrG0p7hKXpmMniMxMHyrzs9o=
-		</data>
-		<key>Resources/MacBookPro8,2</key>
-		<data>
-		DOpN84BZsafeBl06HVntD/KGWQ4=
-		</data>
-		<key>Resources/MacBookPro8,3</key>
-		<data>
-		TdrMpg5jgQyE4rOqw4TliPQ7z8Q=
+		SjwEiG5Y8zyv2RBomVhTIjWKq80=
 		</data>
 		<key>Resources/MacBookPro9,1</key>
 		<data>
-		La0uMkHZ4mAtbyQjJuGsXcr5J+Y=
+		McnDyV2vu9+aD4Taq/6KZOWU3e8=
 		</data>
 		<key>Resources/MacBookPro9,2</key>
 		<data>
-		jZwW2gtfLPwZdadl85L1MD83pDI=
-		</data>
-		<key>Resources/MacPro3,1</key>
-		<data>
-		Rn8Xrxq+IJTOz6i8GLZBP4tKT7I=
-		</data>
-		<key>Resources/MacPro4,1</key>
-		<data>
-		Rt6LhW15eBvu81acL+0AVbREY0g=
+		xO0eWUxkoaV7jLnpFQkW5vxij+M=
 		</data>
 		<key>Resources/MacPro5,1</key>
 		<data>
-		XXD87MiOkUef/WlNGZKlqMm4ajU=
+		sIjRoBZhR/7hZpr9sk52Y+e+mYs=
 		</data>
 		<key>Resources/MacPro6,1</key>
 		<data>
-		5/8YNdf5iYFK4WW5oARd+t6ch/8=
-		</data>
-		<key>Resources/Macmini5,1</key>
-		<data>
-		HHWdDwK1rcebd8tgRdIpE5AR/Lo=
+		VfeBmhoAKk/Z4Rqy52qvY01a5aM=
 		</data>
 		<key>Resources/Macmini6,2</key>
 		<data>
-		sn0o6Jfzk3WoJJ3UFMExeZ/ZuV0=
+		wzheBpGk4y8IVcffD4XNgYJrGcE=
 		</data>
 		<key>Resources/MainMenu.nib</key>
 		<data>
-		3yiPmFIVHQdvLwRjcL4V3c/ROKs=
+		HsJoWfwynyy0DjmS+4HaHPVK46Y=
 		</data>
 		<key>Resources/Misc.dict</key>
 		<data>
-		VwCPbBbjt6IdBxyY2yJLbb1kdjA=
+		bowdXzESECUusEEhnYh8A9Y7igE=
 		</data>
-		<key>Resources/MultiBeast Features-9.1.pdf</key>
+		<key>Resources/MultiBeast_Features-11.0.pdf</key>
 		<data>
-		MGLL+6JxOZ2aCaKa1NHKxD2tHN8=
+		NSWhxc0z4UOfbf882Kti2rL426A=
 		</data>
 		<key>Resources/Network.dict</key>
 		<data>
-		YNL/oQDVlXvkWVa3iQeggZLEjvU=
+		NLq0RYLuIBsWyviYFcITz6dBA9c=
 		</data>
 		<key>Resources/NullCPUPowerManagement-v1.0.0d2.pkg</key>
 		<data>
-		e7H46YypNaTW4YMzFbMbHgnUL98=
+		HKOnQQCj5GBZnVqDV32CFVtW4/8=
 		</data>
 		<key>Resources/Optional3PortAudio</key>
 		<data>
 		lCsGWTK8QKootmbQxwkwgKo6Pic=
-		</data>
-		<key>Resources/OptionalHDMIAudio</key>
-		<data>
-		5189NPkpULW3R5n00LjPtYH6QD8=
 		</data>
 		<key>Resources/ProblemReporter.icns</key>
 		<data>
@@ -350,27 +250,23 @@
 		</data>
 		<key>Resources/Quick Start.dict</key>
 		<data>
-		Okqmr6Ni2HA9JR5Z4TbdPmezlzk=
+		TyO59CyeVDGPqvCsj426dccO2AM=
 		</data>
 		<key>Resources/QuickStartView.nib</key>
 		<data>
-		Duq2aHJLX5cAVfuTdbIjVcjDZqA=
+		XefwAUdpRabsp3YEpHbc3egRNKI=
 		</data>
 		<key>Resources/RealtekRTL8111-v2.0.0.pkg</key>
 		<data>
-		BtB0wi8dv9zEvCR7aJilw8FrnIc=
+		d7Xc1LEG1g3jYd4J1ye/EJzLm4g=
 		</data>
 		<key>Resources/RealtekRTL8111-v2.1.0d1.pkg</key>
 		<data>
-		pErAX1g8nKu/Dhwr5o+DkZTHiLI=
+		KTNl7dVEEFgQnBtKY1csrRPYo34=
 		</data>
-		<key>Resources/RealtekRTL8111-v2.2.1.pkg</key>
+		<key>Resources/RealtekRTL8111-v2.2.2.pkg</key>
 		<data>
-		4+1o/QK9+AjTheWIb5bAVpb7qxo=
-		</data>
-		<key>Resources/RealtekRTL81xx-0_0_90.plist</key>
-		<data>
-		yaiAF9cQV//krlsimC8TweRWB80=
+		YrwnAnp6MpvJbZL3iVGcQR1VR9w=
 		</data>
 		<key>Resources/SSDT Options.dict</key>
 		<data>
@@ -394,43 +290,51 @@
 		</data>
 		<key>Resources/SuccessView.nib</key>
 		<data>
-		e3M74W9njkbWTr21ojZzj6wCYsU=
+		kgNrBg4cGgZsbd1oxhto0a+DZow=
 		</data>
 		<key>Resources/System Definitions.dict</key>
 		<data>
-		K+mvPLX0edY0uvWicpbUH1XjnLY=
+		bj8ZnkeEZMuwC5PnwNLN3BM5j+E=
 		</data>
 		<key>Resources/UEFIBoot.dict</key>
 		<data>
-		sDcsub44y84LDfofpZVItAFKPZ0=
+		qKqmzKcEx+qmlFejYqyYEPbxROo=
 		</data>
 		<key>Resources/USB.dict</key>
 		<data>
-		WVfbfMlsfJzusfe53yA1/09EV04=
+		bH72+gq7ObcjrnW4q3ZDIgluO2s=
+		</data>
+		<key>Resources/USBInjectAll-v0.7.1.pkg</key>
+		<data>
+		NPxN02lZbHpLMuuv9iKv02X9tQ4=
 		</data>
 		<key>Resources/VoodooHDA-v2.8.6.pkg</key>
 		<data>
-		n4YdcQalQvO6SHGkDHrH+b13/4w=
+		4jnsvRPXptK1TeBlTfh2XlkvxDg=
 		</data>
 		<key>Resources/VoodooHDA-v2.8.7.pkg</key>
 		<data>
-		XFngv+7Z6nEnEVR9XoV5Bprn/60=
+		6yoFKhfCqOGFVr0WuRKT0v/GnIs=
 		</data>
 		<key>Resources/VoodooHDA-v2.8.8.pkg</key>
 		<data>
-		Laqx7J/KZCiyED1x2PG2/aWbA7w=
+		U5Bkiqwd4io1m4f6N7JJRPwX7sQ=
 		</data>
-		<key>Resources/VoodooTSCSync-4.pkg</key>
+		<key>Resources/VoodooHDA-v2.8.9.pkg</key>
 		<data>
-		2z84gQntTEm+dBMjd7d9AsMDymY=
+		F1J70i7ulAFg1fbnuOpxwWP1W20=
 		</data>
-		<key>Resources/VoodooTSCSync-6.pkg</key>
+		<key>Resources/VoodooHDA-v2.9.1.pkg</key>
 		<data>
-		PMI/7G2CMstN4+tPf4Buc+MuuUM=
+		oqAqIIB2wp6XSpBb3Ra7bG5E+Uk=
 		</data>
-		<key>Resources/VoodooTSCSync-8.pkg</key>
+		<key>Resources/VoodooTSCSync-v1.5.0.pkg</key>
 		<data>
-		3/zND+FUk54Yi+nyEql1X20CNxQ=
+		FPpfCgCDu9oL7vx32KiR/I2HZM8=
+		</data>
+		<key>Resources/WhateverGreen-v1.2.4.pkg</key>
+		<data>
+		QQ2uFCjMFLDXYONhGTpfzK3qq7M=
 		</data>
 		<key>Resources/clover-legacy-off.png</key>
 		<data>
@@ -460,57 +364,49 @@
 		<data>
 		R8FRI8NEwZtrHprqyuF0itffxSI=
 		</data>
-		<key>Resources/iMac11,1</key>
-		<data>
-		cPVyP+sXpfnsNrYym2Vv0JjLCjk=
-		</data>
-		<key>Resources/iMac11,2</key>
-		<data>
-		0QihY2nQYsJbZ9Foebu1UxrZZVc=
-		</data>
-		<key>Resources/iMac11,3</key>
-		<data>
-		5T0kP8dZPLdk+cJj7jhP6Suqugk=
-		</data>
-		<key>Resources/iMac12,1</key>
-		<data>
-		c9HcwyF1CvfeMCkYR0eQuYCZJns=
-		</data>
-		<key>Resources/iMac12,2</key>
-		<data>
-		hd6jwilxP0AIqEh7iGZpaArYZ1k=
-		</data>
 		<key>Resources/iMac13,1</key>
 		<data>
-		b6ErhJv/BaHinheYs+iCeaaoPYw=
+		8aKOGYSy7B8TguuDF+UQvMhLY6k=
 		</data>
 		<key>Resources/iMac13,2</key>
 		<data>
-		urgQtZ0tM3Ctfa0xO77ogqqqZbA=
+		lpnJQfDadB+Y/05XwZUqN0ON/D4=
 		</data>
 		<key>Resources/iMac14,1</key>
 		<data>
-		fsZmKM/9KqXMr05a5TjQAtNfHRg=
+		eX4NQMU+jlG/3fN+B7iJNz6RV+8=
 		</data>
 		<key>Resources/iMac14,2</key>
 		<data>
-		per4Vo/a6wmGQb3fwawDorVjsWY=
+		jbfQvsXE+P/L9POZuXG/fw42tfQ=
 		</data>
 		<key>Resources/iMac15,1</key>
 		<data>
-		GQN9k4hdSehnNzqjvlUAMw7ZH90=
+		csTg1wl/9QjfrXtWt+dMeisY794=
 		</data>
 		<key>Resources/iMac16,2</key>
 		<data>
-		T7iSNGRA8lLlOWPlZS0MP1tVpds=
+		oigc+1DplKhkZ0XfpUkG4cfYrLk=
 		</data>
 		<key>Resources/iMac17,1</key>
 		<data>
-		G0sIVmt6rspr/E/Rssiwj4pauaU=
+		u/Zjra1FYb4T3cpmdTUHF1uLxNA=
+		</data>
+		<key>Resources/iMac18,1</key>
+		<data>
+		BQ06saus3QN7nVpzBhcWx2yC2hE=
+		</data>
+		<key>Resources/iMac18,2</key>
+		<data>
+		/i5Tuir8Dsd1s0PLWXY0u3tVAVM=
+		</data>
+		<key>Resources/iMac18,3</key>
+		<data>
+		Pj42LjUZ5iPI8qxOKSa7/uVH7iU=
 		</data>
 		<key>Resources/icon.icns</key>
 		<data>
-		jnRMfqRZiQIwbOYZx+yumNPcxiw=
+		8NnIEdd4il/CJBPDOAfPfEAtWXA=
 		</data>
 		<key>Resources/mb6_audio.png</key>
 		<data>
@@ -672,21 +568,21 @@
 		<data>
 		7FXWzO+Y+u30j+9aamp9vCJrrkU=
 		</data>
-		<key>Resources/mount.sh</key>
+		<key>Resources/mount-EFI.sh</key>
 		<data>
-		QGhA0GhcBsRnosBqraksgYEpy4U=
+		/ymR8M1oX4s4ZicXe/Z5+duauk8=
 		</data>
-		<key>Resources/smbios-serial</key>
+		<key>Resources/smbios-serial.py</key>
 		<data>
-		eGPyQyxZft4smbDE8YCMbjQNhiE=
+		/WjaRdW3LECkXqzV+RSXZnLrSso=
 		</data>
 		<key>Resources/smbios.sh</key>
 		<data>
-		kih6iZRDSsisnLmXhu8m/u0wnM0=
+		Jx2GT6PqprrTokSA4BSTYWqe8YE=
 		</data>
-		<key>Resources/unmount.sh</key>
+		<key>Resources/unmount-EFI.sh</key>
 		<data>
-		YjoWo3IrYF+goK1QBCmGai0/AM8=
+		AwT1x8UBDj2pyFDSHW0sUPE+GOs=
 		</data>
 		<key>Resources/usb_off.png</key>
 		<data>
@@ -703,143 +599,143 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			PHHUqH9eFpzrZLcZobPiLELdTcA=
+			lDDVL5xjI2bls5SQE77y7SY3aZ8=
 			</data>
 			<key>hash2</key>
 			<data>
-			xBp2nKh9e4+YCson7r4gkXcSj2oNZe+cIb7k7Iny6ko=
+			bQzDbtGQU8UOdtXz0Ro+knTzFQzFvGoB1nEkfY9h0e0=
 			</data>
 		</dict>
-		<key>Resources/AHCI_3rdParty_SATA.pkg</key>
+		<key>Resources/AHCI_3rdParty_SATA-v0.6.pkg</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			4Y9xYb1DNlMWuRi2AuHWccuUzWo=
+			ohlBGIr5JuJ+dlihpZb7AJJ0oCY=
 			</data>
 			<key>hash2</key>
 			<data>
-			5pffFZNqD/blUDIRyGlxeS2bQ/2SrGq/nlZLzktNbdw=
+			ZQN41uLdSIU0aliDW5vYYsXDCDrQIwnAeJr8lSd3/Hg=
 			</data>
 		</dict>
-		<key>Resources/AHCI_3rdParty_eSATA.pkg</key>
+		<key>Resources/AHCI_3rdParty_eSATA-v0.5.pkg</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Bkk4vOQdpITmJTj8suuI4YD4Sdc=
+			VWwphbsPF1hjFXxZKsn5o6mh5/s=
 			</data>
 			<key>hash2</key>
 			<data>
-			BsLTYONk6sivhpF0NEWp1i/VL8k0jcCSPIUmun8yfVU=
+			Aprh2tGRSqBokhbY67S+kWguk33xEvtp1X5La2bsApY=
 			</data>
 		</dict>
-		<key>Resources/AHCI_Intel_Generic_SATA.pkg</key>
+		<key>Resources/AHCI_Intel_Generic_SATA-v0.4.pkg</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ggVXT5li7L9Uqjn2093iOBq2LgA=
+			RI+l7XoEbQzMC7hxAwR59uC1hfE=
 			</data>
 			<key>hash2</key>
 			<data>
-			8ekz05jIMIUHKemBurkmpDZlzarwH8kPe/L0LXsVDbA=
+			0L8y++no9XZbigQR8IaMnMQ50W/QZQGbMORhcmUK3LA=
+			</data>
+		</dict>
+		<key>Resources/AppleALC-v1.3.3.pkg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			+upAPGvgJ34MeKxRDg7SdhQMYxI=
+			</data>
+			<key>hash2</key>
+			<data>
+			82htkS5lsDqVDTEQgiYZYgQteFSvlpn2QYCxNB3SerI=
 			</data>
 		</dict>
 		<key>Resources/AppleIGB-v5.2.9.4.pkg</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			cM76/0Bx6E9dyVaOBNn69NID5lQ=
+			K1jVKoTRGPL/gFqAIlpUuMXbjB4=
 			</data>
 			<key>hash2</key>
 			<data>
-			zC/XeV426Zak5zVunP/KUgDronvG1oSS0BCSw6fwDgw=
+			VPXk3r3m03DKMyeeYrQrtz5usDHodfW4jhohJnze6ws=
 			</data>
 		</dict>
 		<key>Resources/AppleIGB-v5.3.5.3.pkg</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			pTaKh+pzUcCqU9YRsinLq40mRX0=
+			UM2Jvk2tx5/44f7/jje6LqtPeck=
 			</data>
 			<key>hash2</key>
 			<data>
-			fJuhEt6JdwG+JtIR8oVfN1upLO1e7hWYZeddYu8WPGc=
+			HhvQWmc2xqF7qhj03j6HP50NMwHiRmffZHXjDW70Fcs=
 			</data>
 		</dict>
 		<key>Resources/AppleIntelE1000e-v3.2.4.2.pkg</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			GikoAISG8W6yHueE0ti0P+1rUGU=
+			DAieC3oWJKExvm5WmDpY765NV8I=
 			</data>
 			<key>hash2</key>
 			<data>
-			Jx1zjqnxAioDrZ3ujR+fMGJjUsF6lDIgWWENCikzaCg=
+			ASKrTZqfqgolHW3gtLGzVBIfJ4QqPqRG5o944d3sp7Q=
 			</data>
 		</dict>
-		<key>Resources/AppleIntelE1000e-v3.3.1.pkg</key>
+		<key>Resources/AppleIntelE1000e-v3.3.6.pkg</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			VgkSHtj0ikocyNF+ijP47EB8H3c=
+			xYgbdLfBcmkHFvbQPxujfosjIB8=
 			</data>
 			<key>hash2</key>
 			<data>
-			gG1ybVrS+vcHSFXpY+VlIJ7jTHEUv3Z0aQ/BnkK4KLI=
-			</data>
-		</dict>
-		<key>Resources/AppleIntelE1000e-v3.3.3.pkg</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			V3bWUh2sUmoHe81gP7oXqyxPcaM=
-			</data>
-			<key>hash2</key>
-			<data>
-			+MRAx8sXE4r12gQstgQ2efxT3Ws8MMAckBv0K7rgLHY=
+			YTLIAA5YX9YhX4KlkUYGAtaVkRAnjm5CXEboXK4/aFo=
 			</data>
 		</dict>
 		<key>Resources/AtherosE2200Ethernet-v2.0.1.pkg</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			vZVVL7N9pBmF2LtHKmwj2SCmcQ0=
+			wduMcPQb6tG9kZokR+RlsdpkN28=
 			</data>
 			<key>hash2</key>
 			<data>
-			nSey/ycUvZX7SdQpl36DqtcqLdSIQqJ6rGLjMnNTqCk=
+			/WWoD0pOiGO4NRlOpvq6GEjsYFqBiZhJizqCmiuLrlM=
 			</data>
 		</dict>
 		<key>Resources/AtherosE2200Ethernet-v2.1.0.pkg</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			qAObfGVitsngynNFKx9YJTL/yR8=
+			jO32cfNmGKebMQmLDscKKYVUiPU=
 			</data>
 			<key>hash2</key>
 			<data>
-			bU/nQDc2S/R/aM7oIdSnAPgZmnkad+1+fY3uLUc8Kdg=
+			EYkPtLnr4oyajuA6ae+ukURNWzGhrA3soUb65X6n0GI=
 			</data>
 		</dict>
-		<key>Resources/AtherosE2200Ethernet-v2.2.0.pkg</key>
+		<key>Resources/AtherosE2200Ethernet-v2.2.2.pkg</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Q4MGLesPTOAhzaweReLGZmdyngk=
+			IRr5JIzY1YpjMZpwuZ/q2AqW4J4=
 			</data>
 			<key>hash2</key>
 			<data>
-			7iTdpMZetEwV4Cn47H/B3uPZzfe5KneHBkD4VNBo8x0=
+			9HVG2GaR3CJr7uaGjl1ThDvC0dbv161GPSspQgBWgvM=
 			</data>
 		</dict>
 		<key>Resources/Audio.dict</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			a0+7/UaURMVoP66pnQ7vHK1iKKo=
+			G2MS1pYqppeVUdUssclFC4C1scc=
 			</data>
 			<key>hash2</key>
 			<data>
-			GuDnZ3qqRYUbf9wD+allGBLsgdWqDqNAdLciVpc0f/o=
+			ZqutSxEpFzEqm/Rb0UAV0CL9we4ipLbM/SE5BjSXKlo=
 			</data>
 		</dict>
 		<key>Resources/BootVolume</key>
@@ -857,440 +753,253 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			0fxj6S8lPqqc96hUlxeWsGix7ok=
+			LZjdYJtvFp9FyXhjtficMaCdFMs=
 			</data>
 			<key>hash2</key>
 			<data>
-			8nxGHh+hTsm0a2+WxrYPHmNUdK2a2xOYxcg7voPjC0U=
+			L2EkjjR8M2Fdocs8pCFF7/spaexuQbBtXuSQWhaUgJ8=
 			</data>
 		</dict>
 		<key>Resources/BootloadersView.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			s/qDOLlns756i5BegW8GoiSIIeU=
+			L4Ql1OSqG5s/LVn3adlHyVsqxjc=
 			</data>
 			<key>hash2</key>
 			<data>
-			yrnkJjA9OGnb2uNTA3j96hGpl/1PY8FaykK65xp8ZMs=
+			IfS9ApKaM1XtPBPSpSUppQtQAwo2xhq8DOwhm5Fq0sc=
 			</data>
 		</dict>
 		<key>Resources/BuildView.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			nCYtbFy+x12UVyuxpd80iQToh34=
+			kPqu6FbTs26FZTIPt9I3Y/aiAR8=
 			</data>
 			<key>hash2</key>
 			<data>
-			X8HZA7BMPN/wYZGr3piWBa7cAvxqfGeJfhD2296Z3Qc=
-			</data>
-		</dict>
-		<key>Resources/Clover-100-200-HDEF-Patch.pkg</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			8JyBd1gOd4sJx7QKqzNmtQlSoJU=
-			</data>
-			<key>hash2</key>
-			<data>
-			pmclL8sYx+unr4X8snXav5g4KXFvyneMVfVDSR0/2Gw=
-			</data>
-		</dict>
-		<key>Resources/Clover-ALC1150.pkg</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			3Nbace8bQM7fDb2LcpzlU+fxxb4=
-			</data>
-			<key>hash2</key>
-			<data>
-			6kVLKH8mUi7NvRdhxz4wbH/CypR4RsKwLCyboLBQlTU=
-			</data>
-		</dict>
-		<key>Resources/Clover-ALC1220.pkg</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			mEOcDiwusf9xLnFI2yIsMLc53nM=
-			</data>
-			<key>hash2</key>
-			<data>
-			gIjiR/I6g3LDtjFBx6p3lepl6SSBzIG89li0ayDFBSo=
-			</data>
-		</dict>
-		<key>Resources/Clover-ALC1220A.pkg</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			kageHyA0HPB+IcuKvJQ+BT8vX2s=
-			</data>
-			<key>hash2</key>
-			<data>
-			P45bIdOBnZBE94baDGtmk3UldnnjNB1BjBu+UrZ2WJI=
-			</data>
-		</dict>
-		<key>Resources/Clover-ALC269.pkg</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			zV9am/fVCsVl+EZZPnLtPlaND/c=
-			</data>
-			<key>hash2</key>
-			<data>
-			GWwM5t22HM+Orde7jgesa0e+ntTWDhWdwD0BmN5CK6s=
-			</data>
-		</dict>
-		<key>Resources/Clover-ALC283.pkg</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			EtLIaKjH3NctaWj7qY1xFLRx2SE=
-			</data>
-			<key>hash2</key>
-			<data>
-			ErGVNIcd0wBWdjnGyLP8XexorRo9NcCMlmPDzeBk41w=
-			</data>
-		</dict>
-		<key>Resources/Clover-ALC885.pkg</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			jYe2Ki2WIebchoPBjcUXU4a6Gp8=
-			</data>
-			<key>hash2</key>
-			<data>
-			WdJqGjP+Qj0gsxy/iFWFC/P0Kmx/hOCqBTCCQ8JxHd0=
-			</data>
-		</dict>
-		<key>Resources/Clover-ALC887.pkg</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			UmDa1l6be8KCpRBn4HmXpTK2fgQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			ZAFvtwvRyYbv+wMmQSEaHR0ahnvLb3TPeWjSAX+x27Q=
-			</data>
-		</dict>
-		<key>Resources/Clover-ALC887_Legacy.pkg</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ZyiieXBL4mMaM8ZTFcsEzuDx9g0=
-			</data>
-			<key>hash2</key>
-			<data>
-			HR2w9xL5mJgkr2hGSgQapPWe4m5ZwFCT9B+RKCpvlWo=
-			</data>
-		</dict>
-		<key>Resources/Clover-ALC888.pkg</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			gdthEgC6bUX/E3sfzDpOHhz8+pI=
-			</data>
-			<key>hash2</key>
-			<data>
-			zFcgPq8R0o1cQEcGR95jBmXuyRr3Zl6hO9sjkb3tNck=
-			</data>
-		</dict>
-		<key>Resources/Clover-ALC888_Legacy.pkg</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			c8uwP/8mbvJrS8V0t/E7VfSRXSQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			BQsXmys9rpsEHO5NmTz5FdPEJy3objAQIZBfDziXN3E=
-			</data>
-		</dict>
-		<key>Resources/Clover-ALC889.pkg</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			IrNdj4rqJfWItrXCoBe7LgJJRrs=
-			</data>
-			<key>hash2</key>
-			<data>
-			V86sUhdTs50yqcOd3xNCogeXkTNXQCq824GcYJihzEE=
-			</data>
-		</dict>
-		<key>Resources/Clover-ALC892.pkg</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			slD0sdCwstwdFeol/1HOfir5RNk=
-			</data>
-			<key>hash2</key>
-			<data>
-			4AolGKWzLB4WXavESVukfMm8hkRnWo8jgDoA5F0CqRg=
-			</data>
-		</dict>
-		<key>Resources/Clover-ALC898.pkg</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			AHQziZ4uedl7P7KxGptivk49OOg=
-			</data>
-			<key>hash2</key>
-			<data>
-			d9dc8JpWg0ohEYY2+BFPfcNSbHROO7i/D8FeidsyZOQ=
+			oaI+MBIKxDDC6Y96p/em8VE2t9QRL7m5M1A7qSqFue4=
 			</data>
 		</dict>
 		<key>Resources/Clover-AppleTyMCEDriver.pkg</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			rY+sVKLQOIL//B08YcJfsoIbGCI=
+			UjOlXnHgXQniS16pze1a35pViz4=
 			</data>
 			<key>hash2</key>
 			<data>
-			YyqXd6JyZvgnPcXfngQ9d0LTGoyuqCIk1/TX9YmU6gQ=
+			zYJxAPgHyxCZiw7dMTYytBfVbC5PKRL7t5KLZTrDRlQ=
 			</data>
 		</dict>
-		<key>Resources/Clover-HD3000-Graphics.pkg</key>
+		<key>Resources/Clover-CAVS-HDEF-Patch.pkg</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			3lz7MaC+3GcjLpH33Nj90bN9Va4=
+			wb1QfNb6BCp6fzMGZ/A+HUiJr3M=
 			</data>
 			<key>hash2</key>
 			<data>
-			6LK59nMNxPN8GNAIk95i9RjoNkhqsTBzu2Wg4LDouJg=
+			le//zeTy4YNkuK0dbqiuk7V4wYd/XmHcP9aYz9XIT2o=
 			</data>
 		</dict>
-		<key>Resources/Clover-HD530-HDEF-Patch.pkg</key>
+		<key>Resources/Clover-Coffee-Lake-HD630-Graphics.pkg</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			33fvouyOOGXRUGl0SBaPBdoc+Wc=
+			1/MaGF//mZ1zRNmoQdMvJ1XpjI8=
 			</data>
 			<key>hash2</key>
 			<data>
-			BnTsrZDDrvqWUUfGmHj5uk5VUWMDluOMXkbtvXWR74I=
+			uUCVxdn7JOTcDAyMlP5oOFcKC/9WC9iE9xCUiwpZOfw=
 			</data>
 		</dict>
-		<key>Resources/Clover-HD5xx-Graphics.pkg</key>
+		<key>Resources/Clover-HDAS-HDEF-Patch.pkg</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			jRHxi1Z3YWx2PRAO7+ORTP5cgZo=
+			teUWQrwryCC7P6xTiGyOZxjjKNA=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZNmi1WJddPSTpjdanW2pCJ7yq7HHl8AdVS1Gq8XknSE=
-			</data>
-		</dict>
-		<key>Resources/Clover-HD6xx-Graphics.pkg</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ZNpSUEC3ETPwl0rk85zebH7lzsY=
-			</data>
-			<key>hash2</key>
-			<data>
-			0kprGuvorgwbStHtABzByW7Y8i9QxSEXBqzGjGpbmhw=
+			qbs7r0HmZQism0Fa0wDdDOG0ud/zPMpj4nekwmLHxfc=
 			</data>
 		</dict>
 		<key>Resources/Clover-NVIDIA-Web.pkg</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			EcXt/uXvVDTcRaHCmw2Vki5DA/c=
+			OC3zWfBjK7U2aMsFZolAHgqEuvk=
 			</data>
 			<key>hash2</key>
 			<data>
-			VlQvtHY1r9dqB7HopggEmbNPk+AKu2FIvTXUK/AymJ4=
+			J9FGgPo5Wk6ZcWpN39xKm02Ek86Y9QMIZoqWRw/1SM4=
 			</data>
 		</dict>
-		<key>Resources/Clover-USB-Port-Limit-Sierra-100-Series.pkg</key>
+		<key>Resources/Clover-Remove-XHCI-USB-Port-Limit-10.14.1.pkg</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			G4Vp+ZxN35mAjPDIqDG47ur5Ygo=
+			8BYa1nrV95cHJw6oVDKOYtwvOxw=
 			</data>
 			<key>hash2</key>
 			<data>
-			IZrnDYiwbrzUGhfxomnf9Y4AOglrBq3nAu5u1kKqgRU=
+			2JUk/CLkVivoWkmgRbLkz5PkKSfGUVv78st6NwxbwKk=
 			</data>
 		</dict>
-		<key>Resources/Clover-USB-Port-Limit-Sierra-200-Series.pkg</key>
+		<key>Resources/Clover_v2.4k_r4769-Legacy.pkg</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Nzz60REYz3j3T+4JFmxvMP9grn4=
+			kWPSnTFwA5SB9Q8Bm72D7UZd0gw=
 			</data>
 			<key>hash2</key>
 			<data>
-			b1tmaWtrs/GA5hgOTQ25G5wnLmQYUDVTKWQkcff0ye4=
+			9SOfgqDUity0eZKC773pn5Pdkm3zka/FDp7mqA9Wsmg=
 			</data>
 		</dict>
-		<key>Resources/Clover-USB-Port-Limit-Sierra-9-Series.pkg</key>
+		<key>Resources/Clover_v2.4k_r4769-UEFI-EmuNVR.pkg</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			9+vrLHVm+Fic7AAAm7egch4Hj/w=
+			XcXbLFQ81yQC90MaELc5ZeutJ5k=
 			</data>
 			<key>hash2</key>
 			<data>
-			EsE4ZD4S6hSqgHxAgdY/UoW22ebs6kZoPP2H27/NGB8=
+			lcOzuuq6dg+OlLXruSUrErVbvvCDySF8J8eVNTrxgmA=
 			</data>
 		</dict>
-		<key>Resources/Clover_v2.4k_r4063-Legacy.pkg</key>
+		<key>Resources/Clover_v2.4k_r4769-UEFI.pkg</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			0HqiPwP0nwNPAPjlPrzZ3tDS69Y=
+			zabGcQYNYkG6UxmnicDlKbrsvaY=
 			</data>
 			<key>hash2</key>
 			<data>
-			bbLnn4YSKua38/b1Uu++s6jfKC34kUswLLsnZt9f4fI=
-			</data>
-		</dict>
-		<key>Resources/Clover_v2.4k_r4063-UEFI-EmuNVR.pkg</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			I04dhcOqs8kAhCFw2SOPxo+JxTs=
-			</data>
-			<key>hash2</key>
-			<data>
-			4UNHRiegtuTEt5tOocoIiOBmMjduE4uJNfvUVzsmrUc=
-			</data>
-		</dict>
-		<key>Resources/Clover_v2.4k_r4063-UEFI.pkg</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			QxYV1EYdhzHUMqbGELkv+IbNs9o=
-			</data>
-			<key>hash2</key>
-			<data>
-			S734wwWLFP+DayJul0khw7JkbOoMh0IjQjooeDQ1DVc=
+			Om0gS7dbthRHrfpw/pkYyfeCbfMy5L3A9gIAnu8UH2w=
 			</data>
 		</dict>
 		<key>Resources/Credits.html</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			y2CtLQTte9otiwpgQMupKNYYIHw=
+			jt6E5Ys9+bdhFC7unJYGsJi3Zu8=
 			</data>
 			<key>hash2</key>
 			<data>
-			GbP1H4qTbTHh+Iepv1X/krIC2LW6RHmN8uYU7nX4GKA=
+			h3RKCHvoQvf6lAl5rOLXKQfr9vKa0NEptz95FroDXH4=
 			</data>
 		</dict>
 		<key>Resources/CustomizeView.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			DQNKpUQ0Na5OUWVaURk6UqC3dGQ=
+			w57ov3W6www40juddOW+ZRbpHrs=
 			</data>
 			<key>hash2</key>
 			<data>
-			Zve/dWhn6sHIC1ksuCDHbYSigbTZA5unOjBRpmMAs9A=
+			7Zv++sk3Y6/mzLTNyTexDv3+Hw5zB2cdclHDU24fqTA=
 			</data>
 		</dict>
 		<key>Resources/Disk.dict</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			S2x/GNMoblUqtRQfvl+uVD3RGE8=
+			9zDBATu4b1z9Zi571pwhWuI4ByI=
 			</data>
 			<key>hash2</key>
 			<data>
-			6y7fYBDyeQBMeR/9ouaCMcaFyQ5neWKw8FBpoGRzr0Q=
+			2isPozucRZFIwZ6AHltQXLdA5m5gusWJ9+fFyjZvstk=
 			</data>
 		</dict>
 		<key>Resources/DriversView.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			/IlsLA1/I+zpYY60m/a3yjaRsdo=
+			F1l8jadwrWlFEW9uFIckq94hgq8=
 			</data>
 			<key>hash2</key>
 			<data>
-			Q7L3CR5dF04iVpt8Ns+e9asKLHzHsDucxegqO084gK8=
+			Kh0J35028M57ib3RjX5LmvVbMJNfuGEuadQSsRfKKYM=
 			</data>
 		</dict>
 		<key>Resources/FailView.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Mbk0c73X1wSzF2DYwP456S29w1k=
+			vuK9wv6zz/hX57Y7emnkdf6MQ2I=
 			</data>
 			<key>hash2</key>
 			<data>
-			Wm7wVY0OycS40VIcP/RuqOk6qs0HMSGJS/MDuVYKA4s=
+			eqn9s8xYbfvpfVRGkwZLkbbbWTF8t4pLCJcwSq6dxwQ=
 			</data>
 		</dict>
-		<key>Resources/FakePCIID_XHCIMux-v1.3.6.pkg</key>
+		<key>Resources/FakePCIID_XHCIMux-v1.3.15.pkg</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Rq5r/eFKvCIsOFMA4Uu6fc04bnY=
+			URc2xa0jsYaUcNZxNNUGGuUJiVs=
 			</data>
 			<key>hash2</key>
 			<data>
-			st6wVluvNpH3HPdpqLuWLZRummhDBDWoNaZtCi4yOCA=
+			U9GdE+SEVe5vQN9WNBSAig1Rn7FVaU/bP3ospvQLjno=
 			</data>
 		</dict>
-		<key>Resources/FakeSMC-HWMonitor-v6.25-332-gf3a8525c.1758.pkg</key>
+		<key>Resources/FakeSMC-HWMonitor-v6.26-357-gceb835ea.1800.pkg</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			tpcZ+FDc3Gii5iduV97h+lQwJ/E=
+			HqFu52KFZzRiCPwqogpPBzCjCzo=
 			</data>
 			<key>hash2</key>
 			<data>
-			VsLFZ5zdMxELggI+Li1+0ZOca+pJ0T3tD/GDD8lac68=
+			SN3m+Zg2NU8qM2GgOpqZbFk9kGeodZeeSfyYTIilU5c=
 			</data>
 		</dict>
-		<key>Resources/FakeSMC-Plugins-v6.25-332-gf3a8525c.1758.pkg</key>
+		<key>Resources/FakeSMC-Plugins-v6.26-357-gceb835ea.1800.pkg</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			LQq1XT7G1WJiknRCvuyLsUrKbMs=
+			zzYLaXSCC6pV+OZ+uU3ER8PieS0=
 			</data>
 			<key>hash2</key>
 			<data>
-			74nUAGNywc2X8Wp6q3eOg22yi8LQyec9ZjWP5nJZ44E=
+			9h3aSuBN3m0HPS6SHf3DY61f2dhExYvLSP1x5pNlkyM=
 			</data>
 		</dict>
-		<key>Resources/FakeSMC-v6.25-332-gf3a8525c.1758.pkg</key>
+		<key>Resources/FakeSMC-v6.26-357-gceb835ea.1800.pkg</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			WuG9XqBmcM4Or4g+FmZi1+MzM8s=
+			jflP7h3ImzDw/YyOmpUPNLWkvwg=
 			</data>
 			<key>hash2</key>
 			<data>
-			c3E7g8biqICEzKkZlyamDzUPbXVMaqcdjbsfaXAuZ0A=
+			kdaX1U+er0e8ILcNZpyNMU4UZJeXFeE7KcfcxccDit0=
 			</data>
 		</dict>
 		<key>Resources/GenericUSBXHCI-v1.2.11.pkg</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			qlZWnZe8hvaovwD+w1B/s1H8p7o=
+			VWXtzAgIIkBMXAjo8kRa4jVmmgg=
 			</data>
 			<key>hash2</key>
 			<data>
-			TgsFG6QUJ9D/luoWK9a5lQZV890aexhUDxSoGVUoRNM=
+			1Ay+rOBi2rpAVXcvl85ib5celet8/uBZ1bwdNEvAVhU=
 			</data>
 		</dict>
 		<key>Resources/Graphics.dict</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			VT4x8LAKMkWsO+L8z82Ac6jtYXU=
+			Cc7a4b3Xv/aVAX7viFEHeCSk6I8=
 			</data>
 			<key>hash2</key>
 			<data>
-			gD7QBFi7QC6bc/PL5EHyJhFccch+d3HpJl7jZrWS9Lg=
+			MsKBeMrItvnJ4e5NbkUp1CyAa7Q0WXm6dbKsBlHXGA4=
 			</data>
 		</dict>
 		<key>Resources/InjectATI</key>
@@ -1319,308 +1028,231 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			3qUdWZXL54u2hdbXV3zR1iVd6Lw=
+			JwPKtbbNtr5JZ63RhrHEklXZHTw=
 			</data>
 			<key>hash2</key>
 			<data>
-			EOZJqdCNi0FH3OK3fy2o02rUL2DpcSw8iAW6cZq00Jk=
+			GnwViqeO1qJMP/ybMQYthtciYYrrm4djAxX5AIjX/D4=
 			</data>
 		</dict>
 		<key>Resources/IntelMausiEthernet-v2.1.0.pkg</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			9Nfx2tGsQ+0a2TC1bve07JtkiBc=
+			KF0KjFjayVicW3+WdPuftGHdbIg=
 			</data>
 			<key>hash2</key>
 			<data>
-			t7D+gAuqB1pEO0gflijgiMzbje05MkocJQRmq9leL1M=
+			vlHdmcLqxzMIyamLolvhXcly+9JdoqleMojJ5hJPFL8=
 			</data>
 		</dict>
 		<key>Resources/IntelMausiEthernet-v2.2.0.pkg</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			pv8jayMvUNUlFf5kJyMLHm3oG5U=
+			t+kdRzNhf67rEz+vvJJMiEdCc1k=
 			</data>
 			<key>hash2</key>
 			<data>
-			rcehHvBFi2xZw+hu4xXkO4I2I9Che11TPDn0BTH/oFY=
+			N3wCUWD336u1zbmUQiDUhpDjk8Ag0Z8GrlkLruIv0K4=
 			</data>
 		</dict>
-		<key>Resources/IntelMausiEthernet-v2.2.1d1.pkg</key>
+		<key>Resources/IntelMausiEthernet-v2.3.0.pkg</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			/sopzU+shNUrMtZNw6NBWJEVwBY=
+			Ps8wBYximIsDlZiCEX5JbBSW8rE=
 			</data>
 			<key>hash2</key>
 			<data>
-			AZ9fcZcNo/vWzA2F1tQuUwskMslm7tnEKtHkdRD0xJU=
+			qe3JKrNNJXItPD2UaXdI5cNmEq/ybAQ0LZL+XlWRR4o=
+			</data>
+		</dict>
+		<key>Resources/IntelMausiEthernet-v2.4.0.pkg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			7zDB9yloTw3AlmDL4Ct3GTIW7hg=
+			</data>
+			<key>hash2</key>
+			<data>
+			HYD82Lf/X2dS86zDee5bJJQgd238TreGnDh89M9ooec=
 			</data>
 		</dict>
 		<key>Resources/LegacyBoot.dict</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			FsRFRgxqxEOobP8Sufe/zX4Ivu4=
+			rZbEMsZOx9CY4Lj3CRxBJkl0fI4=
 			</data>
 			<key>hash2</key>
 			<data>
-			I2ITtjuMYc5CCNXnKA7cfMnKYL7Zsbho1aUJk8JccH8=
+			NTkTxVhyOtxggVgj/Qn5lP/XVx+z7WAPRDBWuqzDSBU=
 			</data>
 		</dict>
 		<key>Resources/MacBookAir5,2</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			G6V9RGl/iZDNZ7fr9ECtee+JQ2w=
+			AjblENxNXFle/yp3l3EpRXCzAcs=
 			</data>
 			<key>hash2</key>
 			<data>
-			jqfVFHgJvtBEn3tTBRGWxp6XegWKBhBl1fbs0sOX0EU=
+			mV/7K9nhU0TOG3n5t8vQWMMEgsRTP9xyM3lPR565Css=
 			</data>
 		</dict>
 		<key>Resources/MacBookAir6,2</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			devgG75GOns+X0iZZmx8qH7rVcA=
+			JD1y3kLK4RTDSXON4uK4lAzSZoU=
 			</data>
 			<key>hash2</key>
 			<data>
-			7ZPwnXoEN5z+GCxrPFrJXDkaxcN8gfUGz2/RsscY4ag=
+			C/pv/El6Yj6Tar260s3VyolucE18wpac9mWg6l6vV2Y=
 			</data>
 		</dict>
 		<key>Resources/MacBookPro10,1</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			aeFyNp7nNfDlyw2Nee54VDEa09E=
+			D2rWKhW7tdrdVxEulo9/yGnSu3k=
 			</data>
 			<key>hash2</key>
 			<data>
-			qn167IlFNKrZSogSlSn6VQIIuINFITVrIZJiTJFfnQ4=
+			GwpYYPAm+BCCgbQOFKlj59UCyFAedc3JybqCYSzmths=
 			</data>
 		</dict>
 		<key>Resources/MacBookPro11,1</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			25t6oyqYKVpCFQZROyPr5J6s7zo=
+			nf8lgEn7g1u5vSIzDHmlW4CjkPk=
 			</data>
 			<key>hash2</key>
 			<data>
-			SD7/6giIkDPkNdSrvRlQG6bFxHm3a8wMSpNc8Fha/Yo=
+			kYkRrp8XlHlf4/m5s9hhIG+jPMU11chf6oNu7CzSG9A=
 			</data>
 		</dict>
 		<key>Resources/MacBookPro11,2</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			0dA64SHBNgvfCDJ90Kh3QRE6uUU=
+			SjwEiG5Y8zyv2RBomVhTIjWKq80=
 			</data>
 			<key>hash2</key>
 			<data>
-			Dx+OTJKNtBz3HS3ARixlQFubmbtG5hdl5WfwxNA5RCw=
-			</data>
-		</dict>
-		<key>Resources/MacBookPro6,1</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			YljeNmErcC+A9xOgAZgoQf5kgTs=
-			</data>
-			<key>hash2</key>
-			<data>
-			W32Jj0mWk+MC/0lNdfK/chIf9+1Rq6uNFCPHKO7V5tw=
-			</data>
-		</dict>
-		<key>Resources/MacBookPro6,2</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			P7cX0SXeNUObz6ZlM92v4Sf0kFU=
-			</data>
-			<key>hash2</key>
-			<data>
-			gIdXn4bYvJ98t88F3QY0PCQB0/CZj1nolNyXPRTDr7A=
-			</data>
-		</dict>
-		<key>Resources/MacBookPro8,1</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			MVsWrG0p7hKXpmMniMxMHyrzs9o=
-			</data>
-			<key>hash2</key>
-			<data>
-			f9reEhAbmNuNTdEp+7aiNx4gc9BlJ6Lr6KG9s8wkrvk=
-			</data>
-		</dict>
-		<key>Resources/MacBookPro8,2</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			DOpN84BZsafeBl06HVntD/KGWQ4=
-			</data>
-			<key>hash2</key>
-			<data>
-			AqFMy+q6lhCRlkCsut5VmyIQRcP+msvcXoV/6mTUPPc=
-			</data>
-		</dict>
-		<key>Resources/MacBookPro8,3</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			TdrMpg5jgQyE4rOqw4TliPQ7z8Q=
-			</data>
-			<key>hash2</key>
-			<data>
-			B8bCU9OyAeOrELZU4l8LCG/hX2iLPCXs/FjCbCcQ4To=
+			tH23pkBZatYwCq4mZTYJhcHrCllR1kKvFdjaus3g7pI=
 			</data>
 		</dict>
 		<key>Resources/MacBookPro9,1</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			La0uMkHZ4mAtbyQjJuGsXcr5J+Y=
+			McnDyV2vu9+aD4Taq/6KZOWU3e8=
 			</data>
 			<key>hash2</key>
 			<data>
-			UEjtR0M0o+0UYRdvOpJU7IowKCclqOMIXJR3XXcZ4PA=
+			2RHOXwRBq1lRalQqlISXkK3wpartmRdFo7KcUr21Ig4=
 			</data>
 		</dict>
 		<key>Resources/MacBookPro9,2</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			jZwW2gtfLPwZdadl85L1MD83pDI=
+			xO0eWUxkoaV7jLnpFQkW5vxij+M=
 			</data>
 			<key>hash2</key>
 			<data>
-			FxR4epjwBtNRF36PLwTVIDiuZ1i4jXjGdnPBjpKcHeQ=
-			</data>
-		</dict>
-		<key>Resources/MacPro3,1</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Rn8Xrxq+IJTOz6i8GLZBP4tKT7I=
-			</data>
-			<key>hash2</key>
-			<data>
-			6j7akAdbncsCRo0ckOe0iALZ3JPNPTH2zrOKwVxe2sw=
-			</data>
-		</dict>
-		<key>Resources/MacPro4,1</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Rt6LhW15eBvu81acL+0AVbREY0g=
-			</data>
-			<key>hash2</key>
-			<data>
-			Lb2/709ltrxNx8jjsAT4K+pglJYR7gpcLQeX9dUbK5o=
+			TM/CXietIGB1wX5csIgvpyay4My8GyoaingmQMiTYWM=
 			</data>
 		</dict>
 		<key>Resources/MacPro5,1</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			XXD87MiOkUef/WlNGZKlqMm4ajU=
+			sIjRoBZhR/7hZpr9sk52Y+e+mYs=
 			</data>
 			<key>hash2</key>
 			<data>
-			KT30MzncX9dNBJ4mQ/FKRz4pasYUBCUHc/01OfmgaF0=
+			X17FwRX7BELXUPFZYpWyWiOZXDcezwuoYcnOvh/2yBw=
 			</data>
 		</dict>
 		<key>Resources/MacPro6,1</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			5/8YNdf5iYFK4WW5oARd+t6ch/8=
+			VfeBmhoAKk/Z4Rqy52qvY01a5aM=
 			</data>
 			<key>hash2</key>
 			<data>
-			cM4OMCjSYfWmN9up5kM+iYtOwpYGSytaWhYbeo66oak=
-			</data>
-		</dict>
-		<key>Resources/Macmini5,1</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			HHWdDwK1rcebd8tgRdIpE5AR/Lo=
-			</data>
-			<key>hash2</key>
-			<data>
-			Bwz8J/YT6N6k1/YirbQh0pk5Xdh+C23SlpIJVWmhI14=
+			CMGlLN5lq9v7K8unA0J1xBAtLKzAHyyZxpmFHJDE1mk=
 			</data>
 		</dict>
 		<key>Resources/Macmini6,2</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			sn0o6Jfzk3WoJJ3UFMExeZ/ZuV0=
+			wzheBpGk4y8IVcffD4XNgYJrGcE=
 			</data>
 			<key>hash2</key>
 			<data>
-			217cu2x/NNR+loHLbpYN7d3xzbHGPE3lQ1tNbdAZg/w=
+			zg+FO/Vi4bslll3IYNaYRUSRxidjRHYdKd2xZ74cQHY=
 			</data>
 		</dict>
 		<key>Resources/MainMenu.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			3yiPmFIVHQdvLwRjcL4V3c/ROKs=
+			HsJoWfwynyy0DjmS+4HaHPVK46Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			0xzXFMXBJPNS92KkOtyZeNAGSin04OaC8f0CONBr+PU=
+			RsVrBlH6ZSl7t1sIOefXCCqopLD9FFKIBr7K2zVpk+c=
 			</data>
 		</dict>
 		<key>Resources/Misc.dict</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			VwCPbBbjt6IdBxyY2yJLbb1kdjA=
+			bowdXzESECUusEEhnYh8A9Y7igE=
 			</data>
 			<key>hash2</key>
 			<data>
-			Bis/DUr5ARkSJiwIWUk3aA3s/BVfrOa00qPneEhsAOI=
+			qJ5pEmE3DoNxYDGifFfeqdNi8mzy65e3f6Ac12qA84g=
 			</data>
 		</dict>
-		<key>Resources/MultiBeast Features-9.1.pdf</key>
+		<key>Resources/MultiBeast_Features-11.0.pdf</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			MGLL+6JxOZ2aCaKa1NHKxD2tHN8=
+			NSWhxc0z4UOfbf882Kti2rL426A=
 			</data>
 			<key>hash2</key>
 			<data>
-			zPHXxI9IWu33Q5XqM483xYN+M5xRV3wkGZOKPjZaMXI=
+			yfm3ZLOxO9xVynVDPdWYguY7kpPDub6cersivhySrcw=
 			</data>
 		</dict>
 		<key>Resources/Network.dict</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			YNL/oQDVlXvkWVa3iQeggZLEjvU=
+			NLq0RYLuIBsWyviYFcITz6dBA9c=
 			</data>
 			<key>hash2</key>
 			<data>
-			TRTrYFKSIBGCH2o/FQZke7rT9IRiwJ2sjzMtsSp+Dzw=
+			S9gndV7RP5OCdz7nOt5pHrvzuMJj7tLcumX/rP31CwU=
 			</data>
 		</dict>
 		<key>Resources/NullCPUPowerManagement-v1.0.0d2.pkg</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			e7H46YypNaTW4YMzFbMbHgnUL98=
+			HKOnQQCj5GBZnVqDV32CFVtW4/8=
 			</data>
 			<key>hash2</key>
 			<data>
-			DTxBft1o0kMGk8+/URTiaPZSmVEaDCmuVmU9Yl92JZs=
+			s4IZbFeopHS0CAIpnZLdpVKkQEya2VobOJL4EmQxcLY=
 			</data>
 		</dict>
 		<key>Resources/Optional3PortAudio</key>
@@ -1632,17 +1264,6 @@
 			<key>hash2</key>
 			<data>
 			jPmdyLhjRDS5t4fNTt97PBAGApzzCcXQxOOhIWxKQRQ=
-			</data>
-		</dict>
-		<key>Resources/OptionalHDMIAudio</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			5189NPkpULW3R5n00LjPtYH6QD8=
-			</data>
-			<key>hash2</key>
-			<data>
-			6k5ZzzqDAdLVMrg9K4HgU0E0jMYtAGWWPF44z6SCst8=
 			</data>
 		</dict>
 		<key>Resources/ProblemReporter.icns</key>
@@ -1660,66 +1281,55 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Okqmr6Ni2HA9JR5Z4TbdPmezlzk=
+			TyO59CyeVDGPqvCsj426dccO2AM=
 			</data>
 			<key>hash2</key>
 			<data>
-			nm9yyy+hUYrLSRUZs7Ho5JUySizwnrFn7jh4di0gixs=
+			geG/YEe6Zp2I3vED8V5n/8WFDqzdLPoQ5vETQ53R9uE=
 			</data>
 		</dict>
 		<key>Resources/QuickStartView.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Duq2aHJLX5cAVfuTdbIjVcjDZqA=
+			XefwAUdpRabsp3YEpHbc3egRNKI=
 			</data>
 			<key>hash2</key>
 			<data>
-			Go34YCLuWsoWSJ+SLA3qb75xU7NR8aOf1Qr5pb2tk+Q=
+			Qbi7JYnfhhF+8rmIwpfSpZHnKj+WYQhk+4FMeKJzXcc=
 			</data>
 		</dict>
 		<key>Resources/RealtekRTL8111-v2.0.0.pkg</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			BtB0wi8dv9zEvCR7aJilw8FrnIc=
+			d7Xc1LEG1g3jYd4J1ye/EJzLm4g=
 			</data>
 			<key>hash2</key>
 			<data>
-			AOmviuFTZMMc9klRaMm6lTBl5ythvKbeYu7vnQlhCto=
+			E8QihkXIe2vNrCbtbNBCFaA2PaTuiO1xKfWoYegkcv4=
 			</data>
 		</dict>
 		<key>Resources/RealtekRTL8111-v2.1.0d1.pkg</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			pErAX1g8nKu/Dhwr5o+DkZTHiLI=
+			KTNl7dVEEFgQnBtKY1csrRPYo34=
 			</data>
 			<key>hash2</key>
 			<data>
-			yTfn1QYjLFvSBsX+P71btzWWrYowcHkgbpLsvg9yw28=
+			O69o1d/T7gC0SQZKa0BdCg7tBCj/B977gk+ymZqhhz0=
 			</data>
 		</dict>
-		<key>Resources/RealtekRTL8111-v2.2.1.pkg</key>
+		<key>Resources/RealtekRTL8111-v2.2.2.pkg</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			4+1o/QK9+AjTheWIb5bAVpb7qxo=
+			YrwnAnp6MpvJbZL3iVGcQR1VR9w=
 			</data>
 			<key>hash2</key>
 			<data>
-			NSxjCeSWp8F8SdsXgex4Fk9N+maSPalmNKEIgHEHK3M=
-			</data>
-		</dict>
-		<key>Resources/RealtekRTL81xx-0_0_90.plist</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			yaiAF9cQV//krlsimC8TweRWB80=
-			</data>
-			<key>hash2</key>
-			<data>
-			1gah6vVRR7+sOFvUzUPK4AfG5jZtSIcfSbbhi3T8jkA=
+			FUrg8/R5UozEv2G7TKNwp7aHjBKOnJ7qiAOxJMI0/AI=
 			</data>
 		</dict>
 		<key>Resources/SSDT Options.dict</key>
@@ -1781,110 +1391,132 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			e3M74W9njkbWTr21ojZzj6wCYsU=
+			kgNrBg4cGgZsbd1oxhto0a+DZow=
 			</data>
 			<key>hash2</key>
 			<data>
-			jVEz7qnC2LSv3Zy70Xsuy8eu33pZq1ztLDtW443R82Q=
+			TolUetXoH7mWwI25OfJY1n+Ce5BCV+5/NlBmuALIgy0=
 			</data>
 		</dict>
 		<key>Resources/System Definitions.dict</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			K+mvPLX0edY0uvWicpbUH1XjnLY=
+			bj8ZnkeEZMuwC5PnwNLN3BM5j+E=
 			</data>
 			<key>hash2</key>
 			<data>
-			Pn9yVHw1qjI6AyE44ioP5JQIiYWN5mzr70cDGo3d4/g=
+			c09LufQclwvNOFEDR7KHUqcB8a+bk+07tcseSCehzE0=
 			</data>
 		</dict>
 		<key>Resources/UEFIBoot.dict</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			sDcsub44y84LDfofpZVItAFKPZ0=
+			qKqmzKcEx+qmlFejYqyYEPbxROo=
 			</data>
 			<key>hash2</key>
 			<data>
-			KIUVCGmE88t+qfDY8uo4RLAa0iDLRCfA7KWcSYjWNIA=
+			wMWmUlijZ3q1sdRYg8gswFSYoPA+6lHHlkZDWRTT8qw=
 			</data>
 		</dict>
 		<key>Resources/USB.dict</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			WVfbfMlsfJzusfe53yA1/09EV04=
+			bH72+gq7ObcjrnW4q3ZDIgluO2s=
 			</data>
 			<key>hash2</key>
 			<data>
-			74xG/Z6I5eCG88mSBKD0po7daMNT1hP8L3+nsMtg+CA=
+			uxp1os+KeG/0e/JTqSurrohkF+LumrbikpP080RigFg=
+			</data>
+		</dict>
+		<key>Resources/USBInjectAll-v0.7.1.pkg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			NPxN02lZbHpLMuuv9iKv02X9tQ4=
+			</data>
+			<key>hash2</key>
+			<data>
+			RmzMSiiGnnewth9Mlwh45yrJy4T589Pkcm+EqQyGQf0=
 			</data>
 		</dict>
 		<key>Resources/VoodooHDA-v2.8.6.pkg</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			n4YdcQalQvO6SHGkDHrH+b13/4w=
+			4jnsvRPXptK1TeBlTfh2XlkvxDg=
 			</data>
 			<key>hash2</key>
 			<data>
-			RnoqcdSy7P6bBZgqNWPFv8csuO7H9ETGpd9s3v3sptA=
+			8FfUSV58D8W13LlTUsZi+rKhu2DPwtx0P3B/9tJckV8=
 			</data>
 		</dict>
 		<key>Resources/VoodooHDA-v2.8.7.pkg</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			XFngv+7Z6nEnEVR9XoV5Bprn/60=
+			6yoFKhfCqOGFVr0WuRKT0v/GnIs=
 			</data>
 			<key>hash2</key>
 			<data>
-			U0Hta++wYSziMjIn+gkMsfL8Prq2oC79ADIWg2SPEg0=
+			FqxH2KNf+ZhNexY+Kj41ELc8WoR50bALTVYdcC8hT40=
 			</data>
 		</dict>
 		<key>Resources/VoodooHDA-v2.8.8.pkg</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Laqx7J/KZCiyED1x2PG2/aWbA7w=
+			U5Bkiqwd4io1m4f6N7JJRPwX7sQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			gjFHku5dkjTGmnrhaDgrVJy2E92S5Yu+eg54y6yRNJU=
+			kGwDo7WpPFBVVJNYD6Mdeu9bmoMFbKP1fXXJ+yN5W9s=
 			</data>
 		</dict>
-		<key>Resources/VoodooTSCSync-4.pkg</key>
+		<key>Resources/VoodooHDA-v2.8.9.pkg</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			2z84gQntTEm+dBMjd7d9AsMDymY=
+			F1J70i7ulAFg1fbnuOpxwWP1W20=
 			</data>
 			<key>hash2</key>
 			<data>
-			QSJYY5tT8rBeyT8xjWyOo8iAen89vd102jAjvtf8ol4=
+			wO6H/LoTjfdeapMTm1heDFfMjyhYtfyVUA3XD4MzTrs=
 			</data>
 		</dict>
-		<key>Resources/VoodooTSCSync-6.pkg</key>
+		<key>Resources/VoodooHDA-v2.9.1.pkg</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			PMI/7G2CMstN4+tPf4Buc+MuuUM=
+			oqAqIIB2wp6XSpBb3Ra7bG5E+Uk=
 			</data>
 			<key>hash2</key>
 			<data>
-			8aUAVgC91rRIzxq6ve5KHYL88gSazhkoSJt5Deqpkg8=
+			ekTDNThP8+rWS9c1ElYX8PSid341EMONnvoil4pfw7c=
 			</data>
 		</dict>
-		<key>Resources/VoodooTSCSync-8.pkg</key>
+		<key>Resources/VoodooTSCSync-v1.5.0.pkg</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			3/zND+FUk54Yi+nyEql1X20CNxQ=
+			FPpfCgCDu9oL7vx32KiR/I2HZM8=
 			</data>
 			<key>hash2</key>
 			<data>
-			CaoIWxjq0Pl1ZZ5hk7Hr69ukXYxOrjAhTO8mBlDRf1g=
+			F1dWgX7RleBUNjgsNstez9YfHTsGXJ7ZPJrtpd5uwPI=
+			</data>
+		</dict>
+		<key>Resources/WhateverGreen-v1.2.4.pkg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			QQ2uFCjMFLDXYONhGTpfzK3qq7M=
+			</data>
+			<key>hash2</key>
+			<data>
+			r4SK97IUQ1j1Ba4ptXVHyzJAlAAkJhK/AkvnfKFcK1k=
 			</data>
 		</dict>
 		<key>Resources/clover-legacy-off.png</key>
@@ -1964,147 +1596,125 @@
 			rdEmtFYOlDARsOZID48e9b4tZjmRuyLlTxk2zttcpvM=
 			</data>
 		</dict>
-		<key>Resources/iMac11,1</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			cPVyP+sXpfnsNrYym2Vv0JjLCjk=
-			</data>
-			<key>hash2</key>
-			<data>
-			A9xXcv+UPDkU1NSzOVbvhhoqQQN9V2clatubYJGvnTw=
-			</data>
-		</dict>
-		<key>Resources/iMac11,2</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			0QihY2nQYsJbZ9Foebu1UxrZZVc=
-			</data>
-			<key>hash2</key>
-			<data>
-			/cb7301+Y9SPuimfS4FhLvXoWb+9v/vVwZl+rsLgXBI=
-			</data>
-		</dict>
-		<key>Resources/iMac11,3</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			5T0kP8dZPLdk+cJj7jhP6Suqugk=
-			</data>
-			<key>hash2</key>
-			<data>
-			OmSP2DQ6n9KbmqGKILZthiTdH9ZfqSoDCs0rsdkDTeY=
-			</data>
-		</dict>
-		<key>Resources/iMac12,1</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			c9HcwyF1CvfeMCkYR0eQuYCZJns=
-			</data>
-			<key>hash2</key>
-			<data>
-			CLKAvx3HocBc5VqWiyGTA2O7BKWqUA1R31EnleKClVQ=
-			</data>
-		</dict>
-		<key>Resources/iMac12,2</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			hd6jwilxP0AIqEh7iGZpaArYZ1k=
-			</data>
-			<key>hash2</key>
-			<data>
-			fjmxVcKUPefWyplMIWt55Rs+zAQv11FXaeiA/3kRTwo=
-			</data>
-		</dict>
 		<key>Resources/iMac13,1</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			b6ErhJv/BaHinheYs+iCeaaoPYw=
+			8aKOGYSy7B8TguuDF+UQvMhLY6k=
 			</data>
 			<key>hash2</key>
 			<data>
-			fnP04upaSOJefG7V5CPym7Ed6WQZzMAwHXJcdM9XVVk=
+			h0wBwNmmtHfIZH1OoYD9plwspThDaz0Abp3J/hJVliM=
 			</data>
 		</dict>
 		<key>Resources/iMac13,2</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			urgQtZ0tM3Ctfa0xO77ogqqqZbA=
+			lpnJQfDadB+Y/05XwZUqN0ON/D4=
 			</data>
 			<key>hash2</key>
 			<data>
-			uUZSJ/RjG0x/jDWW0Uz8hoKLCdC0gDQvozCbyUyeYhM=
+			S7gXbmQFzIb2LAdOiAyXRZGKeVCHWeuLhPt+rmvqaFA=
 			</data>
 		</dict>
 		<key>Resources/iMac14,1</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			fsZmKM/9KqXMr05a5TjQAtNfHRg=
+			eX4NQMU+jlG/3fN+B7iJNz6RV+8=
 			</data>
 			<key>hash2</key>
 			<data>
-			X+nz/kLl9bQxHq/VyeGS9d/kKQ8w5X59CY5bMdN/nXg=
+			Ad1p0618iC4+C1NuZFvp6tC52emhiPKA+O9Is9kKqwM=
 			</data>
 		</dict>
 		<key>Resources/iMac14,2</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			per4Vo/a6wmGQb3fwawDorVjsWY=
+			jbfQvsXE+P/L9POZuXG/fw42tfQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			CFGTQ3tcOo6//os3ZblmJTkWndgkWGuE3ZYduWtao3c=
+			eBDv+mFFU7Z/JWcxKMCVG1ipKeiAQkvZohlW3XZVlyY=
 			</data>
 		</dict>
 		<key>Resources/iMac15,1</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			GQN9k4hdSehnNzqjvlUAMw7ZH90=
+			csTg1wl/9QjfrXtWt+dMeisY794=
 			</data>
 			<key>hash2</key>
 			<data>
-			epzz36FnWF99nGj4xhbBMO6WJ+GXpXWNuXLtwYwkcrE=
+			0+TGymaatVGEj1rI6DP2hoHaKFb6f3v6dIJrDEG4Wlc=
 			</data>
 		</dict>
 		<key>Resources/iMac16,2</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			T7iSNGRA8lLlOWPlZS0MP1tVpds=
+			oigc+1DplKhkZ0XfpUkG4cfYrLk=
 			</data>
 			<key>hash2</key>
 			<data>
-			mJl3QqeEass53H1jGKbjHqZuN8CGFfh9rOxwQCAKJd4=
+			jC8v2ndhQYgq78C+8shPM11OC1+lLLdTgnAQZmE9JjE=
 			</data>
 		</dict>
 		<key>Resources/iMac17,1</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			G0sIVmt6rspr/E/Rssiwj4pauaU=
+			u/Zjra1FYb4T3cpmdTUHF1uLxNA=
 			</data>
 			<key>hash2</key>
 			<data>
-			bVtTRBJEh24YMvN7QQTQmTJu8W+SwSQcFPP5///juo8=
+			EHe0ghYl/sSIynQbA9+Zws0PbRu4U61D+d8BSv3TC8o=
+			</data>
+		</dict>
+		<key>Resources/iMac18,1</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			BQ06saus3QN7nVpzBhcWx2yC2hE=
+			</data>
+			<key>hash2</key>
+			<data>
+			5py1ocOdjhrPg+yab91U7L9erHbekWS6SegXjC8FIgY=
+			</data>
+		</dict>
+		<key>Resources/iMac18,2</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			/i5Tuir8Dsd1s0PLWXY0u3tVAVM=
+			</data>
+			<key>hash2</key>
+			<data>
+			iDO4Q0pjwg8E73nFSnwA2zkznJEZRyvjZa9YN6Ema+E=
+			</data>
+		</dict>
+		<key>Resources/iMac18,3</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Pj42LjUZ5iPI8qxOKSa7/uVH7iU=
+			</data>
+			<key>hash2</key>
+			<data>
+			c2wxo/YaW1GayauhVud+/VIgVyVWP+gxIjOUt1Erxzc=
 			</data>
 		</dict>
 		<key>Resources/icon.icns</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			jnRMfqRZiQIwbOYZx+yumNPcxiw=
+			8NnIEdd4il/CJBPDOAfPfEAtWXA=
 			</data>
 			<key>hash2</key>
 			<data>
-			RH8J2I6t/cE0KWHGf8S99TBaCXLfi8yX0+91QB5rNCo=
+			ZHVbyFenNx5rHK7Vx14ZMLMu4rSRKzeQwP1YbeDGmQc=
 			</data>
 		</dict>
 		<key>Resources/mb6_audio.png</key>
@@ -2547,48 +2157,48 @@
 			Dm6GYngVOM13KPrRMHttSptG8wNN9voAnpUZ4IruHEc=
 			</data>
 		</dict>
-		<key>Resources/mount.sh</key>
+		<key>Resources/mount-EFI.sh</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			QGhA0GhcBsRnosBqraksgYEpy4U=
+			/ymR8M1oX4s4ZicXe/Z5+duauk8=
 			</data>
 			<key>hash2</key>
 			<data>
-			mYo3cQZ83A7ReHyMj0I2aIdQDLIZv6uLDFzvhUktBVg=
+			77gBghV7cQexs1Iukp9789nYkcdU/0ttQsymc8U5OVs=
 			</data>
 		</dict>
-		<key>Resources/smbios-serial</key>
+		<key>Resources/smbios-serial.py</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			eGPyQyxZft4smbDE8YCMbjQNhiE=
+			/WjaRdW3LECkXqzV+RSXZnLrSso=
 			</data>
 			<key>hash2</key>
 			<data>
-			lkxi7N4JPA+TLz+oxc46zoxBSd+tMfZGdjZGVigr4MM=
+			4f7dMyTVmPMjvXhonvPhMFNcdgQ9e6OkVtuXQMzDavk=
 			</data>
 		</dict>
 		<key>Resources/smbios.sh</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			kih6iZRDSsisnLmXhu8m/u0wnM0=
+			Jx2GT6PqprrTokSA4BSTYWqe8YE=
 			</data>
 			<key>hash2</key>
 			<data>
-			wgys3aUvQmJy272+ZhC20odIYr7djfX7Oqo4ExeTHqw=
+			knYo7bwbjhZ8fNPGf8OpazTQ00IBv6QZVzfmTN7U95s=
 			</data>
 		</dict>
-		<key>Resources/unmount.sh</key>
+		<key>Resources/unmount-EFI.sh</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			YjoWo3IrYF+goK1QBCmGai0/AM8=
+			AwT1x8UBDj2pyFDSHW0sUPE+GOs=
 			</data>
 			<key>hash2</key>
 			<data>
-			E7sEDxHGXv+KAxuzFhjRYJDhIPSVPkKSm8mN32UaSPI=
+			eMKpTOVdC/2VQ6cJDZyR7OGmgZQ0BgbEJLjfY2Ful/o=
 			</data>
 		</dict>
 		<key>Resources/usb_off.png</key>

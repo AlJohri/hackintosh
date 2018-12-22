@@ -38,31 +38,6 @@
                 <key>Children</key>
                 <array>
                     <array>
-                        <string>iMac 11,1</string>
-                        <string>This identifies your computer as an iMac11,1.</string>
-                        <string>iMac11,1</string>
-                    </array>
-                    <array>
-                        <string>iMac 11,2</string>
-                        <string>This identifies your computer as an iMac11,2.</string>
-                        <string>iMac11,2</string>
-                    </array>
-                    <array>
-                        <string>iMac 11,3</string>
-                        <string>This identifies your computer as an iMac11,3. Installed in /Extra.</string>
-                        <string>iMac11,3</string>
-                    </array>
-                    <array>
-                        <string>iMac 12,1</string>
-                        <string>This identifies your computer as an iMac12,1.</string>
-                        <string>iMac12,1</string>
-                    </array>
-                    <array>
-                        <string>iMac 12,2</string>
-                        <string>This identifies your computer as an iMac12,2.</string>
-                        <string>iMac12,2</string>
-                    </array>
-                    <array>
                         <string>iMac 13,1</string>
                         <string>This identifies your computer as an iMac13,1.</string>
                         <string>iMac13,1</string>
@@ -97,6 +72,21 @@
                         <string>This identifies your computer as an iMac17,1.</string>
                         <string>iMac17,1</string>
                     </array>
+                    <array>
+                        <string>iMac 18,1</string>
+                        <string>This identifies your computer as an iMac18,1 with a Core i5-7360U.</string>
+                        <string>iMac18,1</string>
+                    </array>
+                    <array>
+                        <string>iMac 18,2</string>
+                        <string>This identifies your computer as an iMac18,2 with a Core i5-7500.</string>
+                        <string>iMac18,2</string>
+                    </array>
+                    <array>
+                        <string>iMac 18,3</string>
+                        <string>This identifies your computer as an iMac18,3 with a Core i7-7700K.</string>
+                        <string>iMac18,3</string>
+                    </array>
                 </array>
             </dict>
             <dict>
@@ -107,11 +97,6 @@
                 </array>
                 <key>Children</key>
                 <array>
-                    <array>
-                        <string>Mac mini 5,1</string>
-                        <string>This identifies your computer as a Macmini5,1.</string>
-                        <string>Macmini5,1</string>
-                    </array>
                     <array>
                         <string>Mac mini 6,2</string>
                         <string>This identifies your computer as a Macmini6,2.</string>
@@ -127,31 +112,6 @@
                 </array>
                 <key>Children</key>
                 <array>
-                    <array>
-                        <string>MacBook Pro 6,1</string>
-                        <string>This identifies your computer as a MacBookPro 6,1.</string>
-                        <string>MacBookPro6,1</string>
-                    </array>
-                    <array>
-                        <string>MacBook Pro 6,2</string>
-                        <string>This identifies your computer as a MacBookPro 6,2.</string>
-                        <string>MacBookPro6,2</string>
-                    </array>
-                    <array>
-                        <string>MacBook Pro 8,1</string>
-                        <string>This identifies your computer as a MacBookPro 8,1.</string>
-                        <string>MacBookPro8,1</string>
-                    </array>
-                    <array>
-                        <string>MacBook Pro 8,2</string>
-                        <string>This identifies your computer as a MacBookPro 8,2.</string>
-                        <string>MacBookPro8,2</string>
-                    </array>
-                    <array>
-                        <string>MacBook Pro 8,3</string>
-                        <string>This identifies your computer as a MacBookPro 8,3.</string>
-                        <string>MacBookPro8,3</string>
-                    </array>
                     <array>
                         <string>MacBook Pro 9,1</string>
                         <string>This identifies your computer as a MacBookPro 9,1.</string>
@@ -202,3 +162,4 @@
         </array>
     </dict>
 </plist>
+

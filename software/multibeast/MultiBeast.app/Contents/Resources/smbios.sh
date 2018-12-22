@@ -1,9 +1,13 @@
 #!/bin/bash
+#
+# Script for adding SMBIOS information into Clover
+#
+# Copyright (C) tonymacx86 LLC
 
 # 1 = source plist
 # 2 = destination folder containing config.plist
-# 3 = fileName
-# 4 = Python serial generator script
+# 3 = SMBIOS file
+# 4 = Python serial number generator script
 
 cp "${1}" "${2}"
 cd "${2}"

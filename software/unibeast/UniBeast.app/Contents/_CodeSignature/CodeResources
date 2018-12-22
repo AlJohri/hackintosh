@@ -4,29 +4,29 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Resources/10.10_hover.png</key>
-		<data>
-		WjoAFgY6VR8LfKyBLrrHgBfgsfk=
-		</data>
-		<key>Resources/10.10_off.png</key>
-		<data>
-		rtr2P9Q45ArTa3zsDm+uZONNb1o=
-		</data>
 		<key>Resources/AppIcon.icns</key>
 		<data>
-		NBx50cAf3Qmy5kkqko5LkJfDiCU=
+		3l0V+shYVBPp2mdM3YJIuBSL4GM=
 		</data>
-		<key>Resources/Clover_v2.4k_r4045-Legacy-UB.pkg</key>
+		<key>Resources/Assets.car</key>
 		<data>
-		ROe29oBNAN4o9MVkvz7cMVbJEco=
+		mF52rClrAOCBjo0Zvg0SgcHzQGE=
 		</data>
-		<key>Resources/Clover_v2.4k_r4045-UEFI-UB.pkg</key>
+		<key>Resources/Clover_v2.4k_r4630-Legacy-UB.pkg</key>
 		<data>
-		82466PZN5AUuNpn1bzHWYs304UI=
+		4SBtuvRtkP3wCrXgZLEVwMqZJHc=
+		</data>
+		<key>Resources/Clover_v2.4k_r4674-UEFI-UB.pkg</key>
+		<data>
+		vXqH+D+YRTcBPU0GTsdfNxr6MNc=
 		</data>
 		<key>Resources/Credits.html</key>
 		<data>
-		qHMIsSfHXwU42XHBMOz/hd2sYZI=
+		aAut22EV2Ouldnvclf/2oShH838=
+		</data>
+		<key>Resources/No-Convert</key>
+		<data>
+		Ja/kakKceo85uJOy+T9oiSWgTP0=
 		</data>
 		<key>Resources/ProblemReporter.png</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Resources/UniBeastInstallHelper</key>
 		<data>
-		0X9dlSMpyw5KReIRUUJTlnYbSps=
+		OVi15+nQx1B1MT/foeRy1/6J1Ig=
 		</data>
 		<key>Resources/clover-legacy-off.png</key>
 		<data>
@@ -64,13 +64,9 @@
 		<data>
 		R8FRI8NEwZtrHprqyuF0itffxSI=
 		</data>
-		<key>Resources/elcap-off.png</key>
+		<key>Resources/copy_apfs.sh</key>
 		<data>
-		+kxkjwqqvKD38LTCuAc92/2lx7E=
-		</data>
-		<key>Resources/elcap-on.png</key>
-		<data>
-		R8qS8UA3TI8O3nDnKGjK1ErcVzc=
+		GbihOO9eJGieMWahizBStHO6QQY=
 		</data>
 		<key>Resources/en.lproj/InfoPlist.strings</key>
 		<dict>
@@ -85,7 +81,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			yMW9o7Kh1N6/8X/78A5rvYhvDE8=
+			bAhaJ4wobsoPHOb4wZ97czKAkZ4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -98,13 +94,13 @@
 		<data>
 		PIO9xy7DBEGeuKxwWrGlh6Oo31g=
 		</data>
-		<key>Resources/sierra-off.png</key>
+		<key>Resources/mojave-off.png</key>
 		<data>
-		hKIEjhSBsxbJYWTNqdZHB7IjV7A=
+		uYcyL4ehP8YrWfFZYX3ud/+Tkn4=
 		</data>
-		<key>Resources/sierra-on.png</key>
+		<key>Resources/mojave-on.png</key>
 		<data>
-		J5PsiM4F/oTEB53lZVXL1WCGUZc=
+		DRNPwbAiN09xBeZMRgC8H4jayYA=
 		</data>
 		<key>Resources/tmxtimer.gif</key>
 		<data>
@@ -117,70 +113,70 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Resources/10.10_hover.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			WjoAFgY6VR8LfKyBLrrHgBfgsfk=
-			</data>
-			<key>hash2</key>
-			<data>
-			7oUQBHBA9ZUdGJ7MXsIFeB2Bga6oK4AFTQShZfFvTY4=
-			</data>
-		</dict>
-		<key>Resources/10.10_off.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			rtr2P9Q45ArTa3zsDm+uZONNb1o=
-			</data>
-			<key>hash2</key>
-			<data>
-			zdCBXiWhFzhNP0KIpcGXfs625w9Ti6R2g/q7pn7xC8g=
-			</data>
-		</dict>
 		<key>Resources/AppIcon.icns</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			NBx50cAf3Qmy5kkqko5LkJfDiCU=
+			3l0V+shYVBPp2mdM3YJIuBSL4GM=
 			</data>
 			<key>hash2</key>
 			<data>
-			fDaUvTkvW8K7RwdZz5GxQ9cUoTZkWTD8EAGhlC2q720=
+			4HvbAe7Quy73pkhCzdS/kEE6O9rBY/qDwXAavoJjdwc=
 			</data>
 		</dict>
-		<key>Resources/Clover_v2.4k_r4045-Legacy-UB.pkg</key>
+		<key>Resources/Assets.car</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ROe29oBNAN4o9MVkvz7cMVbJEco=
+			mF52rClrAOCBjo0Zvg0SgcHzQGE=
 			</data>
 			<key>hash2</key>
 			<data>
-			uPui7+70tVWNvlxwdewFFYJOfCeivWWEjfJRJdqQL2s=
+			L3uvTUOF7BaELqPkPaxFaYKq2H8DCrTm3NERk2mbbOI=
 			</data>
 		</dict>
-		<key>Resources/Clover_v2.4k_r4045-UEFI-UB.pkg</key>
+		<key>Resources/Clover_v2.4k_r4630-Legacy-UB.pkg</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			82466PZN5AUuNpn1bzHWYs304UI=
+			4SBtuvRtkP3wCrXgZLEVwMqZJHc=
 			</data>
 			<key>hash2</key>
 			<data>
-			Zjtintp32Qg4uNePnIRsTMjEKDmZBCmLLOnDQgYktyk=
+			iZHoQdSj0zKh8wYmahGgHj7HJs3Lhw/6rCy4u6gNscI=
+			</data>
+		</dict>
+		<key>Resources/Clover_v2.4k_r4674-UEFI-UB.pkg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			vXqH+D+YRTcBPU0GTsdfNxr6MNc=
+			</data>
+			<key>hash2</key>
+			<data>
+			bQdGupLkMNFBebO6Kn1OgQ7FX/urDemxttBuPjKL6vU=
 			</data>
 		</dict>
 		<key>Resources/Credits.html</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			qHMIsSfHXwU42XHBMOz/hd2sYZI=
+			aAut22EV2Ouldnvclf/2oShH838=
 			</data>
 			<key>hash2</key>
 			<data>
-			xqa6l+/6dg37bN1F5yZ7+0hS1E3za0cBvSRUAoPdSmU=
+			QRve/rC/B83iPg/X6qHzLC7KM17ah30SoCgQ5j3AXeE=
+			</data>
+		</dict>
+		<key>Resources/No-Convert</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Ja/kakKceo85uJOy+T9oiSWgTP0=
+			</data>
+			<key>hash2</key>
+			<data>
+			rcqVzDyxJkDGGl1zz2M2MZeu4vXIWOc7wjl4wK5XvHk=
 			</data>
 		</dict>
 		<key>Resources/ProblemReporter.png</key>
@@ -220,11 +216,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			0X9dlSMpyw5KReIRUUJTlnYbSps=
+			OVi15+nQx1B1MT/foeRy1/6J1Ig=
 			</data>
 			<key>hash2</key>
 			<data>
-			wj0PnRCHvcknOQEWCb2vOG0rwFth1K6YF95ZY/gpzSQ=
+			MZcOzaH4Qbjn0KqYfituKi4p96b7dyED7HvQBUdTsNA=
 			</data>
 		</dict>
 		<key>Resources/clover-legacy-off.png</key>
@@ -282,26 +278,15 @@
 			rdEmtFYOlDARsOZID48e9b4tZjmRuyLlTxk2zttcpvM=
 			</data>
 		</dict>
-		<key>Resources/elcap-off.png</key>
+		<key>Resources/copy_apfs.sh</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+kxkjwqqvKD38LTCuAc92/2lx7E=
+			GbihOO9eJGieMWahizBStHO6QQY=
 			</data>
 			<key>hash2</key>
 			<data>
-			vDvwBiKmafQb7FzAauS36L4plxvpkNHyMHNBJllrJWI=
-			</data>
-		</dict>
-		<key>Resources/elcap-on.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			R8qS8UA3TI8O3nDnKGjK1ErcVzc=
-			</data>
-			<key>hash2</key>
-			<data>
-			eNnK7zuRntNVof+EZ23KCnm6MGIjEnTZfcEvSRqC79s=
+			E8evjMAPJA73NWOgyCh9eZaBXst6h30REGpPEyWFO/Q=
 			</data>
 		</dict>
 		<key>Resources/en.lproj/InfoPlist.strings</key>
@@ -321,11 +306,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			yMW9o7Kh1N6/8X/78A5rvYhvDE8=
+			bAhaJ4wobsoPHOb4wZ97czKAkZ4=
 			</data>
 			<key>hash2</key>
 			<data>
-			vCwQc/RlKQW0L7Hu1hWBx7xKspglWV0KE1RdgoM5o7Y=
+			23ySJWgzV2yc88bZjSo+nWrbv+Ui6Hq3l3oZcDoB5B0=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -352,26 +337,26 @@
 			SmqYLOc5c11oS0gRPNtiu9MUEx0U+UdLm9A28nRIxLs=
 			</data>
 		</dict>
-		<key>Resources/sierra-off.png</key>
+		<key>Resources/mojave-off.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			hKIEjhSBsxbJYWTNqdZHB7IjV7A=
+			uYcyL4ehP8YrWfFZYX3ud/+Tkn4=
 			</data>
 			<key>hash2</key>
 			<data>
-			K9C5KCNppfyGwmDy4l/bNdHOBu0y6lDDM5LpVeoirAw=
+			5Ifie+ygpvWPkA8ssStoiozJUkGXfT3fhFBYUKBgfX8=
 			</data>
 		</dict>
-		<key>Resources/sierra-on.png</key>
+		<key>Resources/mojave-on.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			J5PsiM4F/oTEB53lZVXL1WCGUZc=
+			DRNPwbAiN09xBeZMRgC8H4jayYA=
 			</data>
 			<key>hash2</key>
 			<data>
-			2jWQtZ3Zepj5GpJ7GZcP7/XzUdMZSkPSzl7HS7MZeNw=
+			Q3oA/2oQ0xWQpPZDJYYFAC4+K/6I1BhDwOendrOa1GM=
 			</data>
 		</dict>
 		<key>Resources/tmxtimer.gif</key>

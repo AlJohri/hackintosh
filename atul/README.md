@@ -31,10 +31,10 @@ diskutil partitionDisk /dev/disk# GPT JHFS+ "USB" 100%
 
 2. Use `createinstallmedia`.
 ```
-sudo /Applications/Install\ macOS\ Sierra.app/Contents/Resources/createinstallmedia --volume /Volumes/USB --applicationpath /Applications/Install\ macOS\ Sierra.app
+sudo /Applications/Install\ macOS\ Mojave.app/Contents/Resources/createinstallmedia --volume /Volumes/USB
 ```
 
-3. Install clover on to the USB. See configuration options from [Installing Clover](https://www.reddit.com/r/hackintosh/comments/68p1e2/ramblings_of_a_hackintosher_a_sorta_brief_vanilla/).
+3. Install clover on to the USB. See configuration options from [Installing Clover](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/).
 
 4. Replace VBoxHfs-64.efi with HFSPlus.efi on USB.
 ```

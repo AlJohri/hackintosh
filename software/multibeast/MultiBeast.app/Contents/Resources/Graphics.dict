@@ -10,19 +10,14 @@
         <key>Children</key>
         <array>
             <array>
-                <string>Intel HD 3000</string>
-                <string>For desktop systems with Intel HD 3000 graphics. Adds Devices/FakeID/IntelGFX=0x01268086 and Devices/AddProperties/AAPL,snb-platform- id/10000300 to CustoMac Default config.plist. Equivalent to Chimera IGPEnabler=Yes.</string>
-                <string>Clover-HD3000-Graphics.pkg</string>
+                <string>Core Graphics Fixup AKA WhateverGreen</string>
+                <string>Provides various patches necessary for certain AMD/Intel/Nvidia GPUs by vit9696. Installs Lilu.kext and WhateverGreen.kext to /Library/Extensions.</string>
+                <string>WhateverGreen-v1.2.4.pkg</string>
             </array>
             <array>
-                <string>Intel HD 5xx</string>
-                <string>For desktop systems with Intel HD 5xx graphics. Fix for most Intel HD 5xx graphics port layouts on 100 Series motherboards. Adds the following to Volumes/EFI/EFI/CLOVER/config.plist: 4 display patch for AppleIntelSKLGraphicsFramebuffer, ig-platform-id=0x19120000 and 'Skylake Glitch Fix' (AAPL,GfxYTile) to Devices/AddProperties/.</string>
-                <string>Clover-HD5xx-Graphics.pkg</string>
-            </array>
-            <array>
-                <string>Intel HD 6xx</string>
-                <string>For desktop systems with Intel HD 6xx graphics. Fix for most Intel HD 6xx graphics port layouts on 200 Series motherboards. Installs FakePCIID.kext and FakePCIID_Intel_HD_Graphics.kext in /Library/Extensions. Adds the following to Volumes/EFI/EFI/CLOVER/config.plist: FakeCPUID 0x0506E3, /Devices/FakeID/IntelGFX=0x19168086, 4 display patch for AppleIntelSKLGraphicsFramebuffer, ig-platform-id=0x19120000, and 'Skylake Glitch Fix' (AAPL,GfxYTile) to Devices/AddProperties/.</string>
-                <string>Clover-HD6xx-Graphics.pkg</string>
+                <string>Intel HD 630 (Coffee Lake)</string>
+                <string>Fixes Intel HD 630 (Coffee Lake) graphics issues on desktop 300 Series systems with DVI ports. Sets ig-platform-id to 0x3E9B0007 in /Volumes/EFI/EFI/CLOVER/config.plist.</string>
+                <string>Clover-Coffee-Lake-HD630-Graphics.pkg</string>
             </array>
             <array>
                 <string>Inject ATI</string>
@@ -42,3 +37,4 @@
         </array>
     </dict>
 </plist>
+
