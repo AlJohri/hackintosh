@@ -3,7 +3,7 @@
 Latest Benchmark: https://browser.geekbench.com/v4/cpu/3336071
 
 ### Hardware
-- [Intel(R) Core(TM) i7-4790K CPU (Devil's Canyon)](http://ark.intel.com/products/80807/Intel-Core-i7-4790K-Processor-8M-Cache-up-to-4_40-GHz)
+- [Intel(R) Core(TM) i7-4790K CPU (Haswell Refresh, Devil's Canyon)](http://ark.intel.com/products/80807/Intel-Core-i7-4790K-Processor-8M-Cache-up-to-4_40-GHz)
 - [Samsung SSD 840 EVO 250GB](http://www.samsung.com/global/business/semiconductor/minisite/SSD/global/html/ssd840evo/overview.html)
 - [NVIDIA GeForce GTX 760 2048 MB (Kepler?)](http://www.geforce.com/hardware/desktop-gpus/geforce-gtx-760)
 - [Gigabyte Z97X-UD5H-BK](http://www.gigabyte.com/products/product-page.aspx?pid=5378#ov)
@@ -13,10 +13,11 @@ Latest Benchmark: https://browser.geekbench.com/v4/cpu/3336071
   - Intel® GbE LAN (Intel 82580 ?, AppleIGB or AppleIntelE1000e ?)
 
 ### Required Drivers
+See kexts folder for complete list. Put them all in the `Other` folder for Clover.
 https://www.tonymacx86.com/resources/categories/kexts.11/
 - [AppleALC.kext](https://github.com/vit9696/AppleALC) with [Lilu.kext](https://github.com/vit9696/Lilu)
 - HFSPlus.efi (alternative to VBoxHfs-64.efi): https://github.com/JrCs/CloverGrowerPro/blob/master/Files/HFSPlus/X64/HFSPlus.efi
-- FakeSMC.kext (from HWSensors)
+- [VirtualSMC.kext](https://github.com/acidanthera/VirtualSMC) with [Lilu.kext](https://github.com/vit9696/Lilu). This supercedes FakeSMC.kext
 - GenericUSBXHCI
 
 ### Setup
@@ -36,21 +37,7 @@ sudo /Applications/Install\ macOS\ Mojave.app/Contents/Resources/createinstallme
 
 3. Install clover on to the USB. See configuration options from [Installing Clover](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/).
 
-4. Replace VBoxHfs-64.efi with HFSPlus.efi on USB.
-```
-rm EFI/CLOVER/drivers64UEFI/VBoxHfs-64.efi
-wget "https://github.com/JrCs/CloverGrowerPro/raw/master/Files/HFSPlus/X64/HFSPlus.efi" -P EFI/CLOVER/drivers64UEFI
-```
-
-5. Download FakeSMC.kext from hwsensors.
-```
-cd ~/Downloads
-wget http://www.hwsensors.com/content/01-releases/45-release-1426/HWSensors.6.25.1426.Binaries.dmg
-hdiutil attach ~/Downloads/HWSensors.6.25.1426.Binaries.dmg
-mv "/Volumes/HWSensors Binaries v6.25.1426/FakeSMC.kext/" 
-```
-
-6. Download a bunch of other texts... They are all stored in the kexts folder in this repo.
+6. Copy bunch of other texts... They are all stored in the kexts folder in this repo.
 
 7. Create / modify config.plist.
 

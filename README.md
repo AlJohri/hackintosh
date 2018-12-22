@@ -47,7 +47,7 @@ for eliminate problem with vt-d
 ```
 
 ### Which Mac Version to use?
-Should probably use `iMac15,1` with Devil's Canyon. See [How To Setup The Config.plist](https://www.reddit.com/r/hackintosh/comments/68p1e2/ramblings_of_a_hackintosher_a_sorta_brief_vanilla/).
+Should probably use `iMac15,1` with Haswell Refresh (Devil's Canyon). See [How To Setup The Config.plist](https://www.reddit.com/r/hackintosh/comments/68p1e2/ramblings_of_a_hackintosher_a_sorta_brief_vanilla/).
 
 ### Benchmarks Tools
 https://www.tonymacx86.com/threads/os-x-configuration-tuning-utility-tools.138280/
