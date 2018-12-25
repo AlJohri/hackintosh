@@ -3,7 +3,9 @@
 Latest Benchmark: https://browser.geekbench.com/v4/cpu/3336071
 
 ### Hardware
-- [Intel(R) Core(TM) i7-4790K CPU (Haswell Refresh, Devil's Canyon)](http://ark.intel.com/products/80807/Intel-Core-i7-4790K-Processor-8M-Cache-up-to-4_40-GHz)
+- [Intel(R) Core(TM) i7-4790K CPU (Haswell Refresh, Devil's Canyon)](http://ark.intel.com/
+products/80807/Intel-Core-i7-4790K-Processor-8M-Cache-up-to-4_40-GHz)
+	- IGPU: HD 4600
 - [Samsung SSD 840 EVO 250GB](http://www.samsung.com/global/business/semiconductor/minisite/SSD/global/html/ssd840evo/overview.html)
 - [NVIDIA GeForce GTX 760 2048 MB (Kepler?)](http://www.geforce.com/hardware/desktop-gpus/geforce-gtx-760)
 - [Gigabyte Z97X-UD5H-BK](http://www.gigabyte.com/products/product-page.aspx?pid=5378#ov)
@@ -48,3 +50,9 @@ sudo /Applications/Install\ macOS\ Mojave.app/Contents/Resources/createinstallme
 ### Similar Builds
 	- https://github.com/reynardfox/z97x-ud5h
 	- https://www.tonymacx86.com/threads/success-build-macos-sierra-on-gigabyte-z97x-ud5h-i7-4770k-16gb-ram-gtx-760.215548/
+
+### Links
+	- https://www.insanelymac.com/forum/topic/328997-guide-gigabyte-z97x-ud5h-bk-i7-4790k-gtx-970-os-x-el-capitan/
+		- talks about the only DSDT patches he needed to apply
+	- https://www.insanelymac.com/forum/topic/334334-wipsuccess-z97x-ud5h-i7-4770k-running-mojave-beta-1/
+	
