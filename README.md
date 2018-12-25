@@ -96,3 +96,4 @@ https://www.tonymacx86.com/threads/os-x-configuration-tuning-utility-tools.13828
 ### Tools
 - EveryMac Lookup
 	- http://www.everymac.com/ultimate-mac-lookup/
+- Edit AML Files: https://sourceforge.net/projects/maciasl/
