@@ -3,8 +3,8 @@
 Latest Benchmark: https://browser.geekbench.com/v4/cpu/3336071
 
 ### Hardware
-- [Intel(R) Core(TM) i7-4790K CPU - Haswell Refresh, Devil's Canyon](http://ark.intel.com/
-products/80807/Intel-Core-i7-4790K-Processor-8M-Cache-up-to-4_40-GHz)
+- Intel(R) Core(TM) i7-4790K CPU - Haswell Refresh, Devil's Canyon: http://ark.intel.com/
+products/80807/Intel-Core-i7-4790K-Processor-8M-Cache-up-to-4_40-GHz
 	- IGPU: HD 4600
 - [Samsung SSD 840 EVO 250GB](http://www.samsung.com/global/business/semiconductor/minisite/SSD/global/html/ssd840evo/overview.html)
 - [NVIDIA GeForce GTX 760 2048 MB (Kepler?)](http://www.geforce.com/hardware/desktop-gpus/geforce-gtx-760)
