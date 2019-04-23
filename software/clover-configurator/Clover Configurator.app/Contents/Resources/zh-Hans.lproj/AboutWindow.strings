@@ -1,0 +1,15 @@
+/* Class = "NSWindow"; title = "About"; ObjectID = "1"; */
+"1.title" = "关于";
+
+/* Class = "NSButtonCell"; title = "Website"; ObjectID = "eyI-Cm-PGX"; */
+"eyI-Cm-PGX.title" = "网站";
+
+/* Class = "NSButtonCell"; title = "Changelog"; ObjectID = "gb0-Es-lez"; */
+"gb0-Es-lez.title" = "更新日志";
+
+/* Class = "NSButtonCell"; title = "Donate"; ObjectID = "Wky-VX-jr0"; */
+"Wky-VX-jr0.title" = "捐赠";
+
+/* Class = "NSButtonCell"; title = "Credits"; ObjectID = "xam-yL-m99"; */
+"xam-yL-m99.title" = "感谢";
+

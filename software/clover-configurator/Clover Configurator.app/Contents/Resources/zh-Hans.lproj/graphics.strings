@@ -1,0 +1,256 @@
+/* Class = "NSMenuItem"; title = "AMD3800 Controller:"; ObjectID = "0IR-4Y-Yda"; */
+"0IR-4Y-Yda.title" = "AMD3800 Controller:";
+
+/* Class = "NSTableView"; ibShadowedToolTip = "<key>ATI</key>\n<array>\n\t<dict>\n\t<key>IOPCIPrimaryMatch</key>\n\t<string>0x10021234</string>\n\t<key>IOPCISubDevId</key>\n\t<string>0x106b</string>\n\t<key>LoadVBios</key>\n\t<true/>\n\t<key>Model</key>\n\t<string>AMD very cool card</string>\n\t<key>VRAM</key>\n\t<integer>8192</integer>\n\t<key>VideoPorts</key>\n\t<integer>4</integer>\n\t</dict>\n</array>\n\nMore than one AMD video cards? Add info under Graphics->ATI as an array of dictionaries:\n\n- IOPCIPrimaryMatch, device id\n- IOPCISubDevId, sub vendor id of your card\n- LoadVBios, load video bios\n- Model, name to be displayed\n- VRAM, the amount of video RAM, cosmetic only\n- VideoPorts, the ports available for this card"; ObjectID = "2E4-Ux-C7E"; */
+"2E4-Ux-C7E.ibShadowedToolTip" = "<key>ATI</key>\n<array>\n\t<dict>\n\t<key>IOPCIPrimaryMatch</key>\n\t<string>0x10021234</string>\n\t<key>IOPCISubDevId</key>\n\t<string>0x106b</string>\n\t<key>LoadVBios</key>\n\t<true/>\n\t<key>Model</key>\n\t<string>AMD very cool card</string>\n\t<key>VRAM</key>\n\t<integer>8192</integer>\n\t<key>VideoPorts</key>\n\t<integer>4</integer>\n\t</dict>\n</array>\n\n多个AMD显卡？在Graphics->ATI下添加信息作为字典数组：\n\n
+
+- IOPCIPrimaryMatch, 设备id\n
+- IOPCISubDevId, 您的卡的子供应商ID\n
+- LoadVBios, 加载显卡BIOS\n
+- Model, 要显示的名称\n
+- VRAM, 显存数字显示，只是为了好看\n
+- VideoPorts, 显卡卡可用的端口";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Enable/Disable Clover's injection for NVidia's GPUs"; ObjectID = "5lf-Yf-tCI"; */
+"5lf-Yf-tCI.ibShadowedToolTip" = "为NVidia的GPU启用/禁用Clover的注入";
+
+/* Class = "NSMenuItem"; title = "AMD6000 Controller:"; ObjectID = "8LD-ry-5ah"; */
+"8LD-ry-5ah.title" = "AMD6000 Controller:";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedIsNilPlaceholder = "HEX value"; ObjectID = "9Pk-hp-bb6"; */
+"9Pk-hp-bb6.ibShadowedIsNilPlaceholder" = "十六进制值";
+
+/* Class = "NSMenuItem"; title = "AMD9300 Controller:"; ObjectID = "24N-oy-78j"; */
+"24N-oy-78j.title" = "AMD9300 Controller:";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedIsNilPlaceholder = "number"; ObjectID = "25N-fC-6b4"; */
+"25N-fC-6b4.ibShadowedIsNilPlaceholder" = "数字";
+
+/* Class = "NSMenuItem"; title = "Cannonlake (desktop):"; ObjectID = "37H-Rx-Zg5"; */
+"37H-Rx-Zg5.title" = "Cannonlake (台式机):";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>NvidiaGeneric</key>\n<true/>\n\nIf this true then generic name for Videocard will be used. For example instead of\nGigabyte Geforce 7300LE \nYou will see\nNVIDIA Geforce 7300LE"; ObjectID = "A8W-lA-vZO"; */
+"A8W-lA-vZO.ibShadowedToolTip" = "<key>NvidiaGeneric</key>\n<true/>\n\n如果这是真的，那么将使用Videocard的通用名称。\n例如，你会看见NVIDIA Geforce 7300LE，而不是
+技嘉Geforce 7300LE";
+
+/* Class = "NSMenuItem"; title = "AMD8000 Controller:"; ObjectID = "ANX-FT-7iO"; */
+"ANX-FT-7iO.title" = "AMD8000 Controller:";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "<key>FBName</key>\n<string>Macaque</string>\nThis parameter is specific to AMD Radeon cards, which have a bunch of different framebuffers without any specific pattern. For a wide range of common video cards Clover will automatically choose a suiting framebuffer name. Feel free to set your own if you want. If you do not know what to write here, delete this parameter completely.\n\nDo not use Macaque! It is solely used for absurdity. But no - people still use it in their configurations!\n\nSmall guidance table:\n\nSeries v / Type >|Mobile|Desktop :---|:---|:--- HD 5000|Alouatta|Baboon HD 6000|Cttail|Ipomoea HD 7000|Pondweed|Futomaki"; ObjectID = "b8m-kf-9cV"; */
+"b8m-kf-9cV.ibShadowedToolTip" = "<key>FBName</key>\n<string>Macaque</string>\n\n此参数特定于AMD Radeon卡，它具有一堆不同的帧缓冲器，没有任何特定模式。 对于各种常见的显卡，Clover会自动选择适合的帧缓冲名称。 如果您愿意，可以随意设置。 如果您不知道在此处写什么，请完全删除此参数。\n\n
+
+不要使用Macaque！ 它很荒谬。 但是仍然有 人们仍然在他们的配置中使用它！\n\n
+
+指导表:\n\n
+
+Series v / Type >|Mobile|Desktop :---|:---|:--- HD 5000|Alouatta|Baboon HD 6000|Cttail|Ipomoea HD 7000|Pondweed|Futomaki";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "<key>NVCAP</key>\n<string>04000000000003000C0000000000000A00000000</string>\nThis parameter is only useful for Nvidia video cards and configures types and usage of video ports. The example line contains 40 capitalised hexadecimal digits. Theory is missing in this case and praxis shows controversial results.\n\nYou can also find other methods on calculating a correct value for this line.\n\nClover will try to generate one according to the video bios."; ObjectID = "bf1-cI-er9"; */
+"bf1-cI-er9.ibShadowedToolTip" = "<key>NVCAP</key>\n<string>04000000000003000C0000000000000A00000000</string>\n\n此参数仅对Nvidia视频卡有用，并配置视频端口的类型和用法。 示例行包含40个大写十六进制数字。 在这种情况下理论缺失，实践表明有争议的结果。\n\n
+
+您还可以找到有关计算此行的正确值的其他方法。\n\n
+
+Clover将尝试根据视频BIOS生成一个。";
+
+/* Class = "NSMenuItem"; title = "AMD9520 Controller:"; ObjectID = "Bj4-yD-beB"; */
+"Bj4-yD-beB.title" = "AMD9520 Controller:";
+
+/* Class = "NSMenuItem"; title = "Haswell (mobile):"; ObjectID = "c55-ZL-CnZ"; */
+"c55-ZL-CnZ.title" = "Haswell (笔记本):";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>Inject</key>\n<true/>\n\nInject, if true, your EDID->Custom"; ObjectID = "cr7-K5-nzi"; */
+"cr7-K5-nzi.ibShadowedToolTip" = "<key>Inject</key>\n<true/>\n\n注入, 如果选true, 从EDID->Custom设置";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Enable/Disable Clover's injection for AMD/ATI GPUs/APUs"; ObjectID = "cu0-HH-4QS"; */
+"cu0-HH-4QS.ibShadowedToolTip" = "为AMD/ATI GPU/APU启用/禁用Clover注入";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedIsNilPlaceholder = "number"; ObjectID = "Cxs-xM-Pp3"; */
+"Cxs-xM-Pp3.ibShadowedIsNilPlaceholder" = "数字";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>PatchVBios</key>\n<true/>\nClover applies corrections to the shadow ROM at address 0xC0000 to allow support of the highest monitor resolution. For instance, a monitor's EDID contains the mode 1920x1080 but the video bios does not. Clover will apply it as the first mode to be used. In case the monitor does not produce an EDID, it can be injected manually.\n\nIn case ScreenResolution in section GUI is set, it will be used for this patch.\n\nShould the automatic patch fail, then you can specify a manual one."; ObjectID = "DJ3-O6-phs"; */
+"DJ3-O6-phs.ibShadowedToolTip" = "<key>PatchVBios</key>\n<true/>\n\nClover对地址0xC0000处的影子ROM应用校正，以支持最高的监视器分辨率。 例如，监视器的EDID包含模式1920x1080，但视频BIOS不包含。 Clover将其作为第一种使用模式。 如果显示器不产生EDID，可以手动注入。\n\n
+
+I如果设置了GUI部分中的ScreenResolution，它将用于此修补程序。\n\n
+
+如果自动修补程序失败，则可以指定手动修补程序。";
+
+/* Class = "NSMenuItem"; title = "Coffeelake (mobile):"; ObjectID = "dwQ-0C-wRz"; */
+"dwQ-0C-wRz.title" = "Coffeelake (笔记本):";
+
+/* Class = "NSTableView"; ibShadowedToolTip = "<key>PatchVBiosBytes</key>\n<array>\n    <dict>\n        <key>Find</key>\n        <data>gAeoAqAF</data>\n        <key>Replace</key>\n        <data>gAeoAjgE</data>\n    </dict>\n</array>\n\nThis example applied to an AMD Radeon HD 6670 video bios, resulting in a replacement of mode 1920x1440 with mode 1920x1080. \nIt is advised to choose a mode with the same horizontal resolution.\n\nIt is possible to apply multiple patches. An Nvidia video bios, for instance, was successfully modified with four patches."; ObjectID = "eeh-6p-NEB"; */
+"eeh-6p-NEB.ibShadowedToolTip" = "<key>PatchVBiosBytes</key>\n<array>\n<dict>\n<key>Find</key>\n<data>gAeoAqAF</data>\n<key>Replace</key>\n<data>gAeoAjgE</data>\n</dict>\n</array>\n\n此示例适用于AMD Radeon HD 6670视频BIOS，从而以1920x1080模式替换模式1920x1440。
+建议选择具有相同水平分辨率的模式。\n\n
+
+可以应用多个补丁。例如，Nvidia视频BIOS已成功修改了四个补丁。";
+
+/* Class = "NSMenuItem"; title = "AMD9515 Controller:"; ObjectID = "f1u-CV-pQ0"; */
+"f1u-CV-pQ0.title" = "AMD9515 Controller:";
+
+/* Class = "NSMenuItem"; title = "Skylake (mobile):"; ObjectID = "GdN-hS-ZSb"; */
+"GdN-hS-ZSb.title" = "Skylake (笔记本):";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "<key>VideoPorts</key>\n<integer>2</integer>\nThe amount of ports on a video card, including TVO and/or HDMI. The chosen Apple framebuffer may not correspond to our real video card."; ObjectID = "HtU-h4-2EC"; */
+"HtU-h4-2EC.ibShadowedToolTip" = "<key>VideoPorts</key>\n<integer>2</integer>\n\n视频卡上的端口数量，包括TVO和/或HDMI。选择的Apple帧缓冲区可能与我们的真实视频卡不对应。";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "<key>VendorID</key>\n<string>0x11BF</string>\n\nOverrides and inject your Display Vendor id.\nSome time, your Display's EEPROM is not good and OEM manufacturers usually install\nfor a good result the OS customized with the right EDID data ignoring what's on the EEPROM.\nSo if the EEPROM is damaged you have to inject correct info."; ObjectID = "iB3-Ov-vXN"; */
+"iB3-Ov-vXN.ibShadowedToolTip" = "<key>VendorID</key>\n<string>0x11BF</string>\n\n覆盖并注入您的显示供应商ID。
+有些时候，您的显示器的EEPROM不好，OEM制造商通常会安装\n
+为了获得良好的结果，操作系统使用正确的EDID数据进行定制，忽略了EEPROM上的内容。\n
+因此，如果EEPROM损坏，您必须注入正确的信息。";
+
+/* Class = "NSMenuItem"; title = "Coffeelake (desktop):"; ObjectID = "Ijx-3T-O4D"; */
+"Ijx-3T-O4D.title" = "Coffeelake (台式机):";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "<key>ig-platform-id</key>\n<string>0x01620005</string>\nThis parameter is used to enable the internal Intel HD 4000 video card. Until now no common rule for selecting a value was found, so either let Clover handle this parameter or use another one if it does not work.\n\nHere is a table with possible values:\n\nValue|Type|Ports :---|:---|:--- 0x01660000|Mobile|4 ports: 1 LVDS, 3 DP 0x01660001|Mobile|4 ports: 1 LVDS, 1 HDMI, 2 DP 0x01660002|Mobile|1 port: LVDS 0x01660003|Mobile|4 ports: 1 LVDS, 1 HDMI e 2 DP 0x01660004|Mobile|1 port: LVDS 0x01620005|Desktop|3 ports: DP 0x01620006|Desktop|0 ports 0x01620007|Desktop|0 ports 0x01660008|Mobile|3 ports: 1 LVDS, 2 DP 0x01660009|Mobile|3 ports: 1 LVDS, 2 DP 0x0166000a|Mobile|3 ports: 2 DP, 1 HDMI 0x0166000b|Mobile|3 ports: 2 DP, 1 HDMI"; ObjectID = "IRG-f1-fId"; */
+"IRG-f1-fId.ibShadowedToolTip" = "<key>ig-platform-id</key>\n<string>0x01620005</string>\n\n此参数用于启用内部Intel HD 4000视频卡。到目前为止，还没有找到选择值的常用规则，因此要么让Clover处理此参数，要么使用另一个参数，如果它不起作用。\n\n
+
+这是一个包含可能值的表:\n\n
+
+Value|Type|Ports :---|:---|:--- 0x01660000|Mobile|4 ports: 1 LVDS, 3 DP 0x01660001|Mobile|4 ports: 1 LVDS, 1 HDMI, 2 DP 0x01660002|Mobile|1 port: LVDS 0x01660003|Mobile|4 ports: 1 LVDS, 1 HDMI e 2 DP 0x01660004|Mobile|1 port: LVDS 0x01620005|Desktop|3 ports: DP 0x01620006|Desktop|0 ports 0x01620007|Desktop|0 ports 0x01660008|Mobile|3 ports: 1 LVDS, 2 DP 0x01660009|Mobile|3 ports: 1 LVDS, 2 DP 0x0166000a|Mobile|3 ports: 2 DP, 1 HDMI 0x0166000b|Mobile|3 ports: 2 DP, 1 HDMI";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "<key>ProductID</key>\n<string>0x06DE</string>\n\nOverrides and inject your Display product id.\nSome time, your Display's EEPROM is not good and OEM manufacturers usually install\nfor a good result the OS customized with the right EDID data ignoring what's on the EEPROM.\nSo if the EEPROM is damaged you have to inject correct info.<string>0x11BF</string>\n\nOverrides and inject your Display Vendor id.\nSome time, your Display's EEPROM is not good and OEM manufacturers usually install\nfor a good result the OS customized with the right EDID data ignoring what's on the EEPROM.\nSo if the EEPROM is damaged you have to inject correct info."; ObjectID = "j0a-hX-BLv"; */
+"j0a-hX-BLv.ibShadowedToolTip" = "<key>ProductID</key>\n<string>0x06DE</string>\n\n覆盖并注入您的Display产品ID。
+有的时候，您的显示器的EEPROM不好，OEM制造商通常会安装
+为了获得良好的结果，操作系统使用正确的EDID数据进行定制，忽略了EEPROM上的内容。\n
+因此，如果EEPROM损坏，您必须注入正确的信息。<string>0x11BF</string>覆盖并注入您的显示供应商ID。\n
+有些时候，您的显示器的EEPROM不好，\nOEM制造商通常会安装\n
+为了获得良好的结果，操作系统使用正确的EDID数据进行定制，忽略了EEPROM上的内容。\n
+因此，如果EEPROM损坏，您必须注入正确的信息。";
+
+/* Class = "NSMenuItem"; title = "Ivy Bridge HD4000 (mobile):"; ObjectID = "JuO-57-0kg"; */
+"JuO-57-0kg.title" = "Ivy Bridge HD4000 (笔记本):";
+
+/* Class = "NSMenuItem"; title = "AMD9510 Controller:"; ObjectID = "KaM-2f-15R"; */
+"KaM-2f-15R.title" = "AMD9510 Controller:";
+
+/* Class = "NSMenuItem"; title = "Kabylake (desktop):"; ObjectID = "kS0-gp-mxi"; */
+"kS0-gp-mxi.title" = "Kabylake (台式机):";
+
+/* Class = "NSMenuItem"; title = "AMD4600 Controller:"; ObjectID = "LGz-Cs-q86"; */
+"LGz-Cs-q86.title" = "AMD4600 Controller:";
+
+/* Class = "NSMenuItem"; title = "AMD7000 Controller:"; ObjectID = "lUL-rE-jeZ"; */
+"lUL-rE-jeZ.title" = "AMD7000 Controller:";
+
+/* Class = "NSPopUpButton"; ibShadowedToolTip = "<key>DualLink</key>\n<integer>0</integer>\nDefault is 1.\n\nSome systems show a quartered screen. Use 0 to solve this problem, as showed in the example above."; ObjectID = "m64-hn-3cg"; */
+"m64-hn-3cg.ibShadowedToolTip" = "<key>DualLink</key>\n<integer>0</integer>\n\n默认值为1.\n\n
+
+一些系统显示四分之一屏幕。使用0来解决此问题，如上例所示。";
+
+/* Class = "NSMenuItem"; title = "Haswell (desktop):"; ObjectID = "MtX-4n-ZO4"; */
+"MtX-4n-ZO4.title" = "Haswell (台式机):";
+
+/* Class = "NSMenuItem"; title = "Ivy Bridge HD4000 (desktop):"; ObjectID = "Ncf-SM-J6X"; */
+"Ncf-SM-J6X.title" = "Ivy Bridge HD4000 (台式机):";
+
+/* Class = "NSMenuItem"; title = "BroadWell:"; ObjectID = "NEb-YT-nAn"; */
+"NEb-YT-nAn.title" = "BroadWell:";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "<key>HorizontalSyncPulseWidth</key>\n<integer>100</integer>\n\nHorizontalSyncPulseWidth - this patch helps to resolve garbled screen at boot with Intel graphics. Known problem of 8 apples.\nI see that the patch is still needed\n\n<dict>\n<key>Comment</key>\n<string>Patch 8 apples</string>\n<key>Disabled</key>\n<false/>\n<key>Find</key>\n<data>AQAAdRc=</data>\n<key>MatchOS</key>\n<string>10.11</string>\n<key>Name</key>\n<string>IOGraphicsFamily</string>\n<key>Replace</key>\n<data>AQAA6xc=</data>\n</dict>\n\nbut this patch alone is not full solution. The apple is broken for a several seconds and then restored.\nWith new Clover setting HorizontalSyncPulseWidth = 100 there is a full solution. The image is good and not jumped."; ObjectID = "o0y-Gr-iUz"; */
+"o0y-Gr-iUz.ibShadowedToolTip" = "<key>HorizontalSyncPulseWidth</key>\n<integer>100</integer>\n\nHorizontalSyncPulseWidth - 此补丁有助于在启动时使用英特尔图形解决乱码比如8个苹果的已知问题。\n
+我看到补丁仍然需要\n\n<dict>\n<key>Comment</key>\n<string>Patch 8 apples</string>\n<key>Disabled</key>\n<false/>\n<key>Find</key>\n<data>AQAAdRc=</data>\n<key>MatchOS</key>\n<string>10.11</string>\n<key>Name</key>\n<string>IOGraphicsFamily</string>\n<key>Replace</key>\n<data>AQAA6xc=</data>\n</dict>\n\n但这个补丁本身并不是完整的解决方案。苹果画面撕破几秒钟然后恢复。\n
+使用新的Clover设置\nHorizontalSyncPulseWidth = 100这是一个完整的解决方案。图像很好而且没有跳跃";
+
+/* Class = "NSMenuItem"; title = "Cannonlake (mobile):"; ObjectID = "p4w-eQ-IYE"; */
+"p4w-eQ-IYE.title" = "Cannonlake (笔记本):";
+
+/* Class = "NSMenuItem"; title = "AMD5000 Controller:"; ObjectID = "pa6-L5-DJh"; */
+"pa6-L5-DJh.title" = "AMD5000 Controller:";
+
+/* Class = "NSMenuItem"; title = "Old ATI Controller:"; ObjectID = "pUt-Uh-yfc"; */
+"pUt-Uh-yfc.title" = "Old ATI Controller:";
+
+/* Class = "NSMenuItem"; title = "AMD9000 Controller:"; ObjectID = "PzC-3O-TKX"; */
+"PzC-3O-TKX.title" = "AMD9000 Controller:";
+
+/* Class = "NSMenuItem"; title = "AMD2600 Controller:"; ObjectID = "q45-CE-7pX"; */
+"q45-CE-7pX.title" = "AMD2600 Controller:";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>NvidiaSingle</key>\n<true/>\n\nImplemented NvidiaSingle\nIf you have two cards Nvidia and wants to inject only first one:\nthen you can set this parameter."; ObjectID = "qbi-hO-FhU"; */
+"qbi-hO-FhU.ibShadowedToolTip" = "<key>NvidiaSingle</key>\n<true/>\n\nImplemented NvidiaSingle
+如果你有两张Nvidia显卡并且只想注入第一张显卡:\n
+然后你可以设置这个参数。";
+
+/* Class = "NSMenuItem"; title = "AMD9500 Controller:"; ObjectID = "qrP-2S-fn2"; */
+"qrP-2S-fn2.title" = "AMD9500 Controller:";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "parameter is for providing custom EDID when it's missing. The main requirement is to have a correct maximal resolution.\n\nAnother possibility is to use ViewSonic EDID Editor v3.1.5 that can easily be ported to Mac, if needed.\n\nAn EDID from a Dell Inspiron will be used in the sample configuration file with a matrix of 1440x900.\n\nA custom EDID will also be used for automatic video bios patching. Look above.\n\nYou can override VendorID and ProductID in EDID."; ObjectID = "qrY-PP-Osn"; */
+"qrY-PP-Osn.ibShadowedToolTip" = "参数用于在缺少自定义EDID时提供。主要要求是具有正确的最大分辨率。\n\n
+
+另一种可能性是使用ViewSonic EDID Editor v3.1.5，如果需要，可以轻松移植到Mac。\n\n
+
+Dell Inspiron的EDID将在样本配置文件中使用，矩阵为1440x900。\n\n
+
+自定义EDID也将用于自动视频BIOS修补。看上面。\n\n
+
+您可以在EDID中覆盖供应商ID和产品ID。";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "<key>VRAM</key>\n<integer>1024</integer>\nAmount of video memory in MB. It is determined automatically but no one will be harmed if you write a correct value. However, changing it has not helped anyone yet."; ObjectID = "qtF-e6-lNk"; */
+"qtF-e6-lNk.ibShadowedToolTip" = "<key>VRAM</key>\n<integer>1024</integer>\n\n以MB为单位的显卡显存大小。它会自动确定，但如果您写出正确的值，则不会有其它损害。然而，改变它还没有任何意义。";
+
+/* Class = "NSMenuItem"; title = "AMD2400 Controller:"; ObjectID = "qyq-um-vWq"; */
+"qyq-um-vWq.title" = "AMD2400 Controller:";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedIsNilPlaceholder = "HEX value"; ObjectID = "s4T-rc-I13"; */
+"s4T-rc-I13.ibShadowedIsNilPlaceholder" = "十六进制值";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "<key>VideoInputSignal</key>\n<string>0xA0</string>\n\nVideoInputSignal - this is additional patch for the same problem but I found no inluence.\nDefinition of the value is follow\nBit 7=1\nDigital input. If set, the following bit definitions apply:\n\nBits 6–4 Bit depth: 000=undefined, 001=6, 010=8, 011=10, 100=12, 101=14, 110=16 bits per color, 111=reserved Bits 3–0 Video interface: 0000=undefined, 0001=HDMIa, 0010=HDMIb, 0100=MDDI, 0101=DisplayPort\n\nMy default values for desktop 0x80 (Digital, all undefined), for laptop 0x90 -6bits per color?! - not good.\nIt seems value 0xA0 will be better if used.\nAnd I don't know interface for intenal screen."; ObjectID = "SMy-mc-QWc"; */
+"SMy-mc-QWc.ibShadowedToolTip" = "<key>VideoInputSignal</key>\n<string>0xA0</string>\n\nVideoInputSignal - 这是针对同一问题的补充补丁，但我没有发现任何影响。
+值的定义如下\n
+Bit 7=1\n
+数字信号输入。如果设置，则以下位定义适用：\n\n
+
+Bits 6–4 Bit depth: 000=undefined, 001=6, 010=8, 011=10, 100=12, 101=14, 110=16 bits per color, 111=reserved Bits 3–0 Video interface: 0000=undefined, 0001=HDMIa, 0010=HDMIb, 0100=MDDI, 0101=DisplayPort\n\n
+
+我的默认值为桌面0x80（数字，全部未定义），适用于每种颜色的笔记本电脑0x90 -6位?! - 不好.\n
+如果使用，似乎值0xA0会更好。\n
+并且我不知道内屏的界面。";
+
+/* Class = "NSMenuItem"; title = "Kabylake (mobile):"; ObjectID = "tdP-7s-wAa"; */
+"tdP-7s-wAa.title" = "Kabylake (笔记本):";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Enable/Disable Clover's injection for Intel's iGPUs"; ObjectID = "Tj9-VD-Udo"; */
+"Tj9-VD-Udo.ibShadowedToolTip" = "为英特尔的iGPU启用/禁用Clover的注入";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "<key>display-cfg</key>\n<string>03010300FFFF0001</string>\nThis parameter is also just for Nvidia cards. However the listed examples are controversial. Apparently it is best to just let Clover handle this value. Leave it out completely and let Clover do the calculation."; ObjectID = "uFv-WW-DKn"; */
+"uFv-WW-DKn.ibShadowedToolTip" = "<key>display-cfg</key>\n<string>03010300FFFF0001</string>\n\n此参数也适用于Nvidia卡。然而，列出的例子是有争议的。显然最好让Clover处理这个值。完全不让它，让Clover做计算。";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>RadeonDeInit</key>\n<true/>\n\nRev 4296\nA possibility to de-init Radeon cards.\nIt was very old problem since ElCapitan that AMD Radeon HD6xxx and up will not wake after sleep if used as first card.\nIf the card is secondary and CSM enabled then the card works fine. So the differences is initialisation.\nThe solution was found by vit9696 and used in private WhateverGreen.kext. Then Mieze proposed the solution as ACPI patch.\nNow I included this into Clover.\nYou have to set in config.plist"; ObjectID = "UTZ-9I-Mss"; */
+"UTZ-9I-Mss.ibShadowedToolTip" = "<key>RadeonDeInit</key>\n<true/>\n\n从Rev 4296版本开始，可以去掉初始化Radeon显卡。\n
+      从ElCapitan开始，如果把它作为第一显卡，AMD Radeon HD6xxx及以上在睡眠后不会唤醒，这是一个非常古老的问题。\n
+       如果该卡是辅助卡并且启用了CSM，则该卡正常工作。所以差异就是初始化。\n
+       该解决方案由vit9696发现，并在他自己的WhateverGreen.kext中使用。然后Mieze提出了解决方案作为ACPI补丁。\n
+现在我将它包含在Clover中。你必须在config.plist中设置";
+
+/* Class = "NSMenuItem"; title = "Sandy Bridge HD3000:"; ObjectID = "V8p-Nb-5t0"; */
+"V8p-Nb-5t0.title" = "Sandy Bridge HD3000:";
+
+/* Class = "NSMenuItem"; title = "AMD4800 Controller:"; ObjectID = "vr8-X9-g6h"; */
+"vr8-X9-g6h.title" = "AMD4800 Controller:";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedIsNilPlaceholder = "framebuffer"; ObjectID = "vUX-ax-DYA"; */
+"vUX-ax-DYA.ibShadowedIsNilPlaceholder" = "framebuffer";
+
+/* Class = "NSMenuItem"; title = "Skylake (desktop):"; ObjectID = "vyD-G1-PJu"; */
+"vyD-G1-PJu.title" = "Skylake (台式机):";
+
+/* Class = "NSTableView"; ibShadowedToolTip = "<key>NVIDIA</key>\n<array>\n\t<dict>\n\t<key>IOPCIPrimaryMatch</key>\n\t<string>0x10de5665</string>\n\t<key>IOPCISubDevId</key>\n\t<string>0x106b</string>\n\t<key>LoadVBios</key>\n\t<true/>\n\t<key>Model</key>\n\t<string>NVidia very cool card</string>\n\t<key>VRAM</key>\n\t<integer>8192</integer>\n\t<key>VideoPorts</key>\n\t<integer>4</integer>\n\t</dict>\n</array>\n\nMore than one NVidia video cards? Add info under Graphics->NVIDIA as an array of dictionaries:\n\n- IOPCIPrimaryMatch, device id\n- IOPCISubDevId, sub vendor id of your card\n- LoadVBios, load video bios\n- Model, name to be displayed\n- VRAM, the amount of video RAM, cosmetic only\n- VideoPorts, the ports available for this card"; ObjectID = "wQc-iv-n48"; */
+"wQc-iv-n48.ibShadowedToolTip" = "<key>NVIDIA</key>\n<array>\n\t<dict>\n\t<key>IOPCIPrimaryMatch</key>\n\t<string>0x10de5665</string>\n\t<key>IOPCISubDevId</key>\n\t<string>0x106b</string>\n\t<key>LoadVBios</key>\n\t<true/>\n\t<key>Model</key>\n\t<string>NVidia very cool card</string>\n\t<key>VRAM</key>\n\t<integer>8192</integer>\n\t<key>VideoPorts</key>\n\t<integer>4</integer>\n\t</dict>\n</array>\n\n一个以上的NVidia显卡？在Graphics->NVIDIA下添加信息作为字典数组:\n\n
+
+- IOPCIPrimaryMatch, 设备id\n
+- IOPCISubDevId, 你显卡的sub vendor id \n
+- LoadVBios, 加载显卡BIOS\n
+- Model, 要显示的名称\n
+- VRAM, 显存容量，仅限装饰\n
+- VideoPorts, 此显卡可用的端口\n";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>LoadVBios</key>\n<true/>\nLoads a video bios from a file, which needs to be stored at the directory EFI/CLOVER/OEM/[model]/ROM or EFI/CLOVER/ROM with the name [vendor]_[device].rom, for instance 1002_68d8.rom. Sometimes it makes sense to load video bios manually, for example when you need a patched version or when the video card does not show it to the system - like mobile Radeon cards. In this case it is enough to set this parameter to Yes without providing any file. Clover will read the video bios from legacy memory at 0xC0000, where it is present most of the times, and enable functionality.\nApparently the video bios written to the card's ROM does not match the one stored at address 0xC0000 - the shadow ROM. In short:\n\n<true/> - Use for mobile Radeon cards without any external file.\nCan also be used to supply a legacy video bios to cards, which only contain a UEFI video bios.\n<false/> - For all other variants"; ObjectID = "xyg-JY-TIM"; */
+"xyg-JY-TIM.ibShadowedToolTip" = "<key>LoadVBios</key>\n<true/>\n\n从文件加载显卡BIOS，需要将其存储在目录 EFI/CLOVER/OEM/[model]/ROM 或 EFI/CLOVER/ROM with the name [vendor]_[device].rom, 例如1002_68d8.rom。 有时，手动加载显卡BIOS是有意义的，例如当您需要修补版本或显卡未向系统显示时 - 例如笔记本Radeon显卡。 在这种情况下，将此参数设置为Yes就足以提供任何文件。 Clover将从0xC0000处读取传统内存中的视频BIOS，其中大多数时间都存在，并启用功能。\n
+显然，写入卡ROM的视频BIOS与存储在地址0xC0000的视频BIOS不匹配 - the shadow ROM. \n总之:<true/>- 用于移动Radeon卡，无需任何外部文件。\n
+也可用于向显卡提供传统BIOS，其中仅包含UEFI显卡BIOS。<false/>- 对于所有其他变种";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>NvidiaNoEFI</key>\n<true/>\n\nIf your card have a bad EFI bios just don't use it:\n\n\t\"NVDA,noEFI\", \n\tBuffer (0x05)\n\t{\n           \"true\"\n\t},"; ObjectID = "zd9-VZ-weX"; */
+"zd9-VZ-weX.ibShadowedToolTip" = "<key>NvidiaNoEFI</key>\n<true/>\n\n如果您的显卡有不太好的EFI BIOS，请不要使用它:\n\n
+
+	\t\"NVDA,noEFI\", \n\tBuffer (0x05)\n\t{\n           \"true\"\n\t},";
+

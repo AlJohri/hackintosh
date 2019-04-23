@@ -1,0 +1,96 @@
+/* Class = "NSComboBox"; ibShadowedToolTip = "<key>Inject</key>\n<string>Detect</string>\nProperty injection for the sound chip. Only works when the DSDT defines Device (HDEF). If you renamed it, you can also inject the other properties differently. Do not use this parameter with VoodooHDA. Possible options are:\n\nNo - Injection is turned off\nDetect - Automatic detection of the sound chip and injection of its ID as layout ID. Actually this is nonsense but still very popular. Does not do any harm and affects the display of sound properties in System Profiler.\n883 - Decimal number representing. Refers to Realtek ALC883 in this case.\n0x373 - Same as above in hexadecimal.\nThese numbers are incorrect, you will need to find the correct value and possibly replace the layout file bundled with AppleHDA to get the chip working."; ObjectID = "0Ex-U9-H5a"; */
+"0Ex-U9-H5a.ibShadowedToolTip" = "<key>Inject</key>\n<string>Detect</string>\n\n声音芯片的属性注入。仅在DSDT定义设备（HDEF）时有效。如果重命名它，您还可以以不同方式注入其他属性。不要将此参数与VoodooHDA一起使用。可能的选择是：\n\n
+
+No - 注入关闭\n
+Detect - 自动检测声音芯片并将其ID作为layout ID注入。实际上这是胡说八道，但仍然非常受欢迎。 不会造成任何伤害并影响System Profiler中声音属性的显示。\n
+883 - 十进制数表示。在这种情况下指的是Realtek ALC883。\n
+0x373 - 与十六进制相同。\n
+这些数字不正确，您需要找到正确的值，并可能替换AppleHDA捆绑的布局文件以使芯片正常工作。";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>FixOwnership</key>\n<true/>\nIt is possible to leave USB injection enabled and only turn off the ownership fix.\n\nThis fix is not relevant for UEFI booting."; ObjectID = "2I2-ep-g7I"; */
+"2I2-ep-g7I.ibShadowedToolTip" = "<key>FixOwnership</key>\n<true/>\n\n可以启用USB注入并仅关闭所有权修复。\n
+此修复与UEFI引导无关。";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>ResetHDA</key>\n<true/>\nAudio controller initialization. Some users have non-working sound after cold boot but works after restart or wake (even on Windows!). This is a workaround that works at early boot, so it will affect Windows as well."; ObjectID = "4ga-hk-hZY"; */
+"4ga-hk-hZY.ibShadowedToolTip" = "<key>ResetHDA</key>\n<true/>\n\n音频控制器初始化有些用户在冷启动后会没有声音，但在重启或唤醒后仍然可以工作（即使在Windows上！）。这是一种适用于早期启动的解决方法，因此它也会影响Windows。";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedIsNilPlaceholder = "HEX in DATA type; 0 = \"NO\", 1 = \"YES\" in BOOLEAN type "; ObjectID = "8r1-Ie-cZD"; */
+"8r1-Ie-cZD.ibShadowedIsNilPlaceholder" = "HEX in DATA type; 0 = \"NO\", 1 = \"YES\" 在BOOLEAN类型中";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Some tuning about C4/C6 States and SpeedStep"; ObjectID = "9QK-wm-bPF"; */
+"9QK-wm-bPF.ibShadowedToolTip" = "一些关于C4/C6状态和SpeedStep的调整";
+
+/* Class = "NSTableColumn"; headerCell.title = "Value Type"; ObjectID = "E6H-GQ-ELu"; */
+"E6H-GQ-ELu.headerCell.title" = "Value Type";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>Inject</key>\n<true/>\nInjects USB properties. You can turn it off for whatever reason, if you need. It is also disabled if the DSDT patch mask matches 0x1000 to prevent data duplication."; ObjectID = "Eq8-eZ-fBy"; */
+"Eq8-eZ-fBy.ibShadowedToolTip" = "<key>Inject</key>\n<true/>\n\n注入USB属性。如果需要，您可以出于任何原因将其关闭。如果DSDT补丁掩码与0x1000匹配，它也会被禁用，以防止数据重复。";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>NoDefaultProperties</key>\n<false/>\nThis key will affect DSDT fixes and force them to generate an empty _DSM. For example, if you enable FIX_DISPLAY Clover will create a device for the graphics card but with an empty _DSM. AddProperties and FakeID values will still be injected.\n\nThis works only for Display, Sound, LAN and WiFi."; ObjectID = "Fbo-vD-sOq"; */
+"Fbo-vD-sOq.ibShadowedToolTip" = "<key>NoDefaultProperties</key>\n<false/>\n\n此选项将影响DSDT修复并强制它们生成空的_DSM。例如，如果启用FIX_DISPLAY Clover将为图形卡创建一个设备但是具有空的_DSM。仍将注入AddProperties和FakeID值。\n\n
+
+这仅适用于显示器，声音，LAN和WiFi。";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>HighCurrent</key>\n<true/>\nMore power needed to charge iPad from USB ports."; ObjectID = "H9i-56-9Ga"; */
+"H9i-56-9Ga.ibShadowedToolTip" = "<key>HighCurrent</key>\n<true/>\n\n从USB端口为iPad充电需要更多电量。";
+
+/* Class = "NSView"; ibShadowedToolTip = "Now Devices->Properties can be written into config.plist in format as DarwinDumper do\n\nFor example\n<dict>\n<key>PciRoot(0x0)/Pci(0x1b,0x0)</key>\n\t<dict>\n\t\t<key>MaximumBootBeepVolume</key>\n\t\t<string>M</string>\n\t\t<key>PinConfigurations</key>\n\t\t<data>\n\t\tUEArAUABEJBCARCQIDCLARABoJAw4MsBYOBLAQ==\n\t\t</data>\n\t\t<key>layout-id</key>\n\t\t<data>\n\t\tEgAAAA==\n\t\t</data>\n\t\t<key>platformFamily</key>\n\t\t<data>\n\t\tAA==\n\t\t</data>\n\t</dict>\n\t<key>PciRoot(0x0)/Pci(0x1c,0x2)/Pci(0x0,0x0)/Pci(0x0,0x0)</key>\n\t<dict>\n\t\t<key>fwswappedbib</key>\n\t\t<data>\n\t\tAQAAAA==\n\t\t</data>\n\t</dict>\n\nThis way we can deprecate Arbitrary section."; ObjectID = "HE5-9l-mik"; */
+"HE5-9l-mik.ibShadowedToolTip" = "Now Devices->Properties 可以像DarwinDumper那样写入config.plist格式\n\n
+
+例如\n<dict>\n<key>PciRoot(0x0)/Pci(0x1b,0x0)</key>\n\t<dict>\n\t\t<key>MaximumBootBeepVolume</key>\n\t\t<string>M</string>\n\t\t<key>PinConfigurations</key>\n\t\t<data>\n\t\tUEArAUABEJBCARCQIDCLARABoJAw4MsBYOBLAQ==\n\t\t</data>\n\t\t<key>layout-id</key>\n\t\t<data>\n\t\tEgAAAA==\n\t\t</data>\n\t\t<key>platformFamily</key>\n\t\t<data>\n\t\tAA==\n\t\t</data>\n\t</dict>\n\t<key>PciRoot(0x0)/Pci(0x1c,0x2)/Pci(0x0,0x0)/Pci(0x0,0x0)</key>\n\t<dict>\n\t\t<key>fwswappedbib</key>\n\t\t<data>\n\t\tAQAAAA==\n\t\t</data>\n\t</dict>\n\n这样我们可以弃用任意部分。";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Try to force enable HPET if isn't."; ObjectID = "Hfo-IB-7nr"; */
+"Hfo-IB-7nr.ibShadowedToolTip" = "如果不是，请尝试强制启用HPET。";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>Inject</key>\n<false/>\nEnabling it will cause the automatic injection to turn off and allow the injection of a custom string from Properties"; ObjectID = "HY8-2T-aia"; */
+"HY8-2T-aia.ibShadowedToolTip" = "<key>Inject</key>\n<false/>\n\n启用它将导致自动注入关闭并允许从Properties注入自定义字符串";
+
+/* Class = "NSTableColumn"; headerCell.title = "Value Type"; ObjectID = "Jke-Be-RCo"; */
+"Jke-Be-RCo.headerCell.title" = "Value Type";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Enable or disable HDMI injection, disabled by default."; ObjectID = "Mi8-oT-4ye"; */
+"Mi8-oT-4ye.ibShadowedToolTip" = "启用或禁用HDMI注入，默认情况下禁用。";
+
+/* Class = "NSTableView"; ibShadowedToolTip = "<key>AddProperties</key>\n<array>\n  <dict>\n    <key>Device</key>\n    <string>NVidia</string>\n    <key>Key</key>\n    <string>AAPL,HasPanel</string>\n    <key>Value</key>\n    <data>AQAAAA==</data>\n  </dict>\n  <dict>\n    <key>Device</key>\n    <string>NVidia</string>\n    <key>Key</key>\n    <string>AAPL,Haslid</string>\n    <key>Value</key>\n    <data>AQAAAA==</data>\n    </dict>\n</array>\nUsing device properties injection may be insufficient for some cases (new device, new standard, new OS), so this function lets you customize these injected properties.\n\nYou may write as many properties as you want for these devices: * ATI * NVidia * IntelGFX * LAN * WIFI * Firewire * SATA * IDE * HDA * HDMI * LPC * SmBUS * USB"; ObjectID = "Ob7-UX-r0p"; */
+"Ob7-UX-r0p.ibShadowedToolTip" = "<key>AddProperties</key>\n<array>\n<dict>\n<key>Device</key>\n<string>NVidia</string>\n<key>Key</key>\n<string>AAPL,HasPanel</string>\n<key>Value</key>\n<data>AQAAAA==</data>\n</dict>\n<dict>\n<key>Device</key>\n<string>NVidia</string>\n<key>Key</key>\n<string>AAPL,Haslid</string>\n<key>Value</key>\n<data>AQAAAA==</data>\n</dict>\n</array>\n对于某些情况（新设备，新标准，新操作系统），使用设备属性注入可能不够，因此此功能允许您自定义这些注入的属性。\n\n
+
+您可以为这些设备编写任意的属性: * ATI * NVidia * IntelGFX * LAN * WIFI * Firewire * SATA * IDE * HDA * HDMI * LPC * SmBUS * USB";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Replace Airport device name inside your DSDT"; ObjectID = "PQZ-Qh-lD1"; */
+"PQZ-Qh-lD1.ibShadowedToolTip" = "替换DSDT中的Airport设备名称";
+
+/* Class = "NSView"; ibShadowedToolTip = "First you should look your boot.log or preboot.log (obtained by press F2 in Clover GUI). There is a list of your PCI devices.\n\n4:432 0:000 PCI (00|02:05.00) : 10EC 8167 class=020000\n\nThis is LAN device\n\nVendorID= 10EC - this is Realtek\n\nDeviceID= 8167 - This is Realtek 8167/8169/8110 Gigabyte Ethernet Controller\n\nIt is located on the PCI bus (green digits)\n\nBus = 02\n\nDevice = 05 \n\nFunction = 00\n\nThis location will be unique for every device in your computer. You may have two equal graphics cards with the same IDs and same model. But their locations will be different.\n\nWe have to write into config.plist in section \"Devices\", array \"Arbitrary\" of items one per device you want to inject properties.\n\n\t<key>Devices</key>\n\t<dict>\n\t\t<key>Arbitrary</key>\n\t\t<array>\n\t\t\t<dict>\n\t\t\t\t<key>PciAddr</key>\n\t\t\t\t<string>02:05.00</string>\n\t\t\t\t<key>Comment</key>\n\t\t\t\t<string>Realtek LAN 8167</string>\n\t\t\t\t<key>CustomProperties</key>\n\t\t\t\t<array>\n\t\t\t\t\t<dict>\n\t\t\t\t\t\t<key>Key</key>\n\t\t\t\t\t\t<string>model</string>\n\t\t\t\t\t\t<key>Value</key>\n\t\t\t\t\t\t<string>Realtek 8169 Gigabit Ethernet Controller</string>\n\t\t\t\t\t</dict>\n\t\t\t\t\t<dict>\n\t\t\t\t\t\t<key>Key</key>\n\t\t\t\t\t\t<string>built-in</string>\n\t\t\t\t\t\t<key>Value</key>\n\t\t\t\t\t\t<data>AQAAAA==</data>\n\t\t\t\t\t</dict>\n\t\t\t\t</array>\n\t\t\t</dict>\n\t\t</array>"; ObjectID = "Qxp-DC-Voo"; */
+"Qxp-DC-Voo.ibShadowedToolTip" = "首先，您应该查看boot.log或preboot.log（通过在Clover GUI中按F2获得）。 有一个PCI设备列表。\n\n
+
+4:432 0:000 PCI (00|02:05.00) : 10EC 8167 class=020000\n\n
+
+这是LAN设备\n\n
+
+VendorID= 10EC - this is Realtek\n
+
+DeviceID= 8167 - This is Realtek \n8167/8169/8110 Gigabyte Ethernet Controller\n\n
+
+它位于PCI总线上（绿色数字）\n\n
+
+Bus = 02\n
+
+Device = 05 \n
+
+Function = 00\n\n
+
+此位置对于计算机中的每个设备都是唯一的。您可能有两个具有相同ID和相同型号的相同图形卡。但他们的位置会有所不同。\n\n
+
+我们必须在\"Devices\"部分写入config.plist，每个设备要注入属性的项目一个数组为\"Arbitrary\"。<key>Devices</key><dict><key>Arbitrary</key><array><dict><key>PciAddr</key><string>02:05.00</string><key>Comment</key><string>Realtek LAN 8167</string><key>CustomProperties</key><array><dict><key>Key</key><string>model</string><key>Value</key><string>Realtek 8169 Gigabit Ethernet Controller</string></dict><dict><key>Key</key><string>built-in</string><key>Value</key><data>AQAAAA==</data></dict></array></dict></array>";
+
+/* Class = "NSTableColumn"; headerCell.title = "Value*"; ObjectID = "Txa-kI-pAD"; */
+"Txa-kI-pAD.headerCell.title" = "Value*";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "<key>Properties</key>\n<string>0207364862FA54HG345</string>\nTo create your own string you need the tool gfxutil that, for example, is bundled with DarwinDumper. You will need to create an xml file using a device path in standard notation as header and list properties, which will be injected. The example shows a file used to enable a video card:\n\n<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE plist PUBLIC \"-//Apple//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">\n<plist version=\"1.0\">\n<dict>\n    <key>PciRoot(0x0)/Pci(0x2,0x0)</key>\n    <dict>\n        <key>AAPL,HasPanel</key>\n        <data>AQAAAA== </data>\n        <key>built-in</key>\n        <data>AA==</data>\n        <key>class-code</key>\n        <data>AAADAA==</data>\n        <key>device_type</key>\n        <data>ZGlzcGxheQA=</data>\n        <key>model</key>\n        <data>R01BIDk1MAA=</data>\n    </dict>\n</dict>\n</plist>\nIt is possible to obtain the currently used plist with DarwinDumper, to modify it and convert it into string form with the command:\n\n./gfxutil –i xml –o hex devprop.plist devprop.hex\n.. resulting in:\n\nd30000000100000001000000c70000000500000002010c00d041030a000000000101060000027fff0400100000006d006f00640065006c0000000c000000474d4120393530001c0000006400650076006900630065005f00740079007000650000000c000000646973706c617900200000004100410050004c002c00480061007300500061006e0065006c0000000800000001000000160000006200750069006c0074002d0069006e00000005000000001a00000063006c006100730073002d0063006f006400650000000800000000000300\nThe result needs to be used as a value for DeviceProperties. The same effect can be achieved by adding a _DMS method into the according section of your DSDT. It may be practical to use the string method when no DSDT is available yet."; ObjectID = "UDA-0b-dPf"; */
+"UDA-0b-dPf.ibShadowedToolTip" = "<key>Properties</key>\n<string>0207364862FA54HG345</string>\n\n要创建自己的字符串，您需要使用工具gfxutil，例如，它与DarwinDumper捆绑在一起。您需要使用标准表示法中的设备路径创建一个xml文件作为标题和列表属性，这些属性将被注入。该示例显示了用于启用视频卡的文件:\n\n<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE plist PUBLIC \"-//Apple//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">\n<plist version=\"1.0\">\n<dict>\n<key>PciRoot(0x0)/Pci(0x2,0x0)</key>\n<dict>\n<key>AAPL,HasPanel</key>\n<data>AQAAAA==</data>\n<key>built-in</key>\n<data>AA==</data>\n<key>class-code</key>\n<data>AAADAA==</data>\n<key>device_type</key>\n<data>ZGlzcGxheQA=</data>\n<key>model</key>\n<data>R01BIDk1MAA=</data>\n</dict>\n</dict>\n</plist>\n可以使用DarwinDumper获取当前使用的plist，修改它并使用以下命令将其转换为字符串形式：\n\n
+
+./gfxutil –i xml –o hex devprop.plist devprop.hex
+\n.. 结果在:\n\n
+
+d30000000100000001000000c70000000500000002010c00d041030a000000000101060000027fff0400100000006d006f00640065006c0000000c000000474d4120393530001c0000006400650076006900630065005f00740079007000650000000c000000646973706c617900200000004100410050004c002c00480061007300500061006e0065006c0000000800000001000000160000006200750069006c0074002d0069006e00000005000000001a00000063006c006100730073002d0063006f006400650000000800000000000300\n
+结果需要用作DeviceProperties的值。通过在DSDT的相应部分中添加_DMS方法可以实现相同的效果。当没有DSDT可用时，使用字符串方法可能是实际的。";
+

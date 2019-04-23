@@ -1,0 +1,112 @@
+/* Class = "NSButton"; ibShadowedToolTip = "disable Clover's keyboard shortcuts"; ObjectID = "2ou-qM-F9Q"; */
+"2ou-qM-F9Q.ibShadowedToolTip" = "禁用Clover的键盘快捷键";
+
+/* Class = "NSPopUpButton"; ibShadowedToolTip = "Policy for Secure Boot. Using WhiteList and BlackList require an array of allowed and denied binary"; ObjectID = "3c7-hz-Sd8"; */
+"3c7-hz-Sd8.ibShadowedToolTip" = "安全启动策略。使用WhiteList和BlackList需要允许和拒绝二进制数组";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Skip the Hibernation timeout"; ObjectID = "3SI-Go-M3B"; */
+"3SI-Go-M3B.ibShadowedToolTip" = "跳过休眠超时";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>Debug</key>\n<false/>\nIf you are unable to boot into the Clover you can use this setting to produces a debug output to /EFI/CLOVER/misc/debug.log. This log then can be assessed to find out what the problem is. !WARNING turning on this log will dramatically increase loading time as it has to write the log to the disk as it goes. So please be patient and give plenty of time before reseting your computer."; ObjectID = "4Wo-7U-l4l"; */
+"4Wo-7U-l4l.ibShadowedToolTip" = "<key>Debug</key>\n<false/>\n\n如果您无法启动Clover，则可以使用此设置为/EFI/CLOVER/misc/debug.log生成调试输出。然后可以评估该日志以找出问题所在。 ！警告打开此日志会大大增加加载时间，因为它必须将日志写入磁盘。因此，请在重置计算机之前保持耐心并留出足够的时间。";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "<key>Timeout</key>\n<integer>5</integer>\nThe boot loader will pause for 5 seconds after starting before automatically loading an operating system. If a key is pressed during this period of time, the countdown is stopped. Options:\n\n0 - GUI is not invoked, the OS is loaded instantly\n-1 - GUI is invoked, automatic OS loading is turned off\nClover must have be able to find a default entry for it to automatically boot into an OS.\n\nNOTE: If the Timeout integer is set to 0, hold any key when powering on to invoke the bootloader GUI."; ObjectID = "6h3-7F-Ex1"; */
+"6h3-7F-Ex1.ibShadowedToolTip" = "<key>Timeout</key>\n<integer>5</integer>\n\n启动后启动加载程序将暂停5秒钟，然后自动加载操作系统。如果在这段时间内按下某个键，则倒计时停止。选项：\n
+0 - 未调用GUI，即时加载操作系统\n
+-1 - 调用GUI，关闭自动OS加载\n
+Clover必须能够找到一个默认条目才能自动启动到操作系统。\n
+注意：如果Timeout整数设置为0，则在打开电源时按住任意键以调用引导加载程序GUI。";
+
+/* Class = "NSTableView"; ibShadowedToolTip = "White list for Secure Boot (allowed). Policy must be set to WhiteList"; ObjectID = "6sX-vb-IgQ"; */
+"6sX-vb-IgQ.ibShadowedToolTip" = "安全启动白名单（允许）。策略必须设置为WhiteList";
+
+/* Class = "NSButton"; ibShadowedToolTip = "In the case when ordinary boot failed the boot.efi can set flag \"recovery-boot-mode\". It is not reliable for us and we want just ignore this variable to boot ordinary."; ObjectID = "Ch7-ok-KtP"; */
+"Ch7-ok-KtP.ibShadowedToolTip" = "在普通引导失败的情况下，boot.efi可以设置标志\"recovery-boot-mode\"。它对我们来说不可靠，我们只想忽略这个变量来启动普通。";
+
+/* Class = "NSTableView"; ibShadowedToolTip = "Black list for Secure Boot (not allowed). Policy must be set to BlackList"; ObjectID = "d4m-0h-hax"; */
+"d4m-0h-hax.ibShadowedToolTip" = "安全启动的黑名单（不允许）。策略必须设置为BlackList";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>NeverHibernate</key>\n<true/>\nDisables the hibernation state detection."; ObjectID = "dLU-KX-GK6"; */
+"dLU-KX-GK6.ibShadowedToolTip" = "<key>NeverHibernate</key>\n<true/>\n禁用休眠状态检测。";
+
+/* Class = "NSComboBox"; ibShadowedToolTip = "<key>CustomLogo</key>\n<true/> OR <false/> OR <string>Apple/Alternate/Theme/None/Path</string> OR <data>PNG/BMP/ICNS base64 data</data>\nEnable the drawing of the custom boot logo.\n\ntrue - Uses the default boot style, Apple.\nfalse - Disables custom boot logo.\nApple - Use the default gray on gray apple logo.\nAlternate - Use the alternate white on black apple logo.\nTheme - Use the theme boot screen for entry type - NOT IMPLEMENTED.\nNone - Use no logo only background color, gray if not specified by custom entry.\nPath - A file path to load a custom image from\n<data> - A base64 encoded PNG, BMP, or ICNS data.\nIf no option is specified then the boot screen will be drawn only for >= 10.10 Yosemite, so it remains compatible with previous behavior.\n\nThe CustomLogo key can also be used under GUI/Custom/Entries in conjunction with BootBgColor for a different screen for every OS. However, the graphics output protocol is not in anyway modified so if the OS draws after it is started then it is after the boot screen is drawn and will overwrite the custom logo, at least for now."; ObjectID = "dq6-TB-u6t"; */
+"dq6-TB-u6t.ibShadowedToolTip" = "<key>CustomLogo</key>\n<true/>OR<false/>OR<string>Apple/Alternate/Theme/None/Path</string>OR<data>PNG/BMP/ICNS base64 data</data>\n启用自定义引导徽标的绘制。\n\n
+
+true -使用默认启动样式Apple。\n
+false - 禁用自定义启动徽标。\n
+Apple - 使用灰色苹果徽标上的默认灰色。\n
+Alternate - 在黑色苹果标志上使用备用白色。\n
+Theme - 使用主题启动屏幕\n
+entry type - NOT IMPLEMENTED.\n
+None - 不使用仅徽标背景颜色，如果未通过自定义条目指定，则为灰色。\n
+Path - 从加载自定义图像的文件路径 - base64编码的PNG，BMP或ICNS数据。
+如果未指定任何选项，则仅为>= 10.10 Yosemite绘制引导屏幕，因此它与先前的行为保持兼容。\n\n
+
+CustomLogo键也可以在GUI/Custom/Entries下与BootBgColor结合使用，用于每个操作系统的不同屏幕。但是，图形输出协议不会被修改，所以如果操作系统在启动后绘制，那么它是在绘制引导屏幕之后并且将覆盖自定义徽标，至少目前是这样。";
+
+/* Class = "NSSegmentedControl"; ibShadowedToolTip = "<key>XMPDetection</key>\n<true/> OR <false/> OR <string>Yes/No</string>\nDetect best eXtreme Memory Profile when detecting memory or disable XMP detection.\n\n<key>XMPDetection</key>\n<integer>1/2</integer>"; ObjectID = "Jix-7R-EdR"; */
+"Jix-7R-EdR.ibShadowedToolTip" = "<key>XMPDetection</key>\n<true/>或<false/>或<string>Yes/No</string>\n检测到内存或禁用XMP检测时，检测最佳eXtreme Memory Profile。\n\n<key>XMPDetection</key><integer>1/2</integer>";
+
+/* Class = "NSButton"; ibShadowedToolTip = "A data leak issue was identified in the hibernation code, allowing hibernation encryption key to be passed to the system through RTC and preserved till the next hibernation without a subsequent erase. More details could be found in this message. To workaround this issue a new option enabling RTC memory erase upon waking from hibernation was added:\nBoot → RtcHibernateAware﻿﻿ = YES (BOOLEAN, off by default)\n \nThis option relies on a poorly documented (or rather undocumented) RTC memory access, and unspecified RTC memory layout, which is implementation-specific. While it is extremely recommended to be turned on if you rely on hibernation, it may not work on your hardware (should be fine on Ivy Bridge and newer at least), and is thus optional and disabled by default.\n \nNote, that AppleRTC or FixRTC patches effectively break hibernation by reducing the available RTC memory and avoiding encryption key preservation. You should DISABLE them if you have no issues with BIOS preferences afterwards or use HibernationFixup. However, if RtcHibernateAware does not work for you, enabling AppleRTC patch and using HibernationFixup may be a safer workaround."; ObjectID = "Jl7-Yz-DVL"; */
+"Jl7-Yz-DVL.ibShadowedToolTip" = "在休眠代码中识别出数据泄漏问题，允许休眠加密密钥通过RTC传递到系统并保存到下一次休眠而不进行后续擦除。 可以在此消息中找到更多详细信息。 为了解决此问题，添加了一个新的选项，可以在从休眠状态唤醒时擦除RTC内存：\n
+Boot→RtcHibernateAware = YES（BOOLEAN，默认情况下关闭）\n\n
+ 
+此选项依赖于文档记录较差（或无法记录）的RTC内存访问，以及未指定的RTC内存布局，这是特定于实现的。 虽然如果您依赖休眠时非常建议打开它，但它可能无法在您的硬件上运行（至少应该在Ivy Bridge上更好），因此默认情况下是可选的并禁用。\n\n
+ 
+请注意，AppleRTC或FixRTC补丁通过减少可用的RTC内存并避免加密密钥保存来有效地中断休眠。 如果您之后没有BIOS偏好问题或使用HibernationFixup，您应该禁用它们。 但是，如果RtcHibernateAware不适合您，启用AppleRTC补丁并使用HibernationFixup可能是一种更安全的解决方法。";
+
+/* Class = "NSPopUpButton"; ibShadowedToolTip = "<key>Legacy</key>\n<string>PBR</string>\nNecessary for loading old versions of Windows and Linux. Greatly depends on hardware and BIOS. Several algorithms were developed to allow customisation:\n\nLegacyBiosDefault - for UEFI BIOS variants containing protocol LegacyBios\nPBRtest - PBR boot algorithm\nPBR - Another PBR boot algorithm\nAdditionally for UEFI boot you may specify which HDD to boot (not only the first one).\n\n<key>Legacy</key>\n<string>LegacyBiosDefault</string>\n<key>LegacyBiosDefaultEntry</key>\n<integer>2</integer>"; ObjectID = "MRU-pn-ell"; */
+"MRU-pn-ell.ibShadowedToolTip" = "<key>Legacy</key>\n<string>PBR</string>\n\n必须加载旧版本的Windows和Linux。很大程度上取决于硬件和BIOS。开发了几种算法以允许定制：\n\n
+
+LegacyBiosDefault - 适用于包含LegacyBios协议的UEFI BIOS变体\n
+PBRtest - PBR启动算法\n
+PBR - 另一种PBR启动算法\n
+A此外，对于UEFI引导，您可以指定要引导的HDD（不仅是第一个）。\n<key>Legacy</key>\n<string>LegacyBiosDefault</string>\n<key>LegacyBiosDefaultEntry</key>\n<integer>2</integer>";
+
+/* Class = "NSMenuItem"; title = "Help"; ObjectID = "ofj-iB-WDq"; */
+"ofj-iB-WDq.title" = "帮助";
+
+/* Class = "NSMenu"; title = "Help"; ObjectID = "Ry8-9p-YDp"; */
+"Ry8-9p-YDp.title" = "帮助";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Hide some debug messages while Clover is loading"; ObjectID = "sj2-ly-IP6"; */
+"sj2-ly-IP6.ibShadowedToolTip" = "在加载Clover时隐藏一些调试信息";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "<key>DefaultLoader</key>\n<string>BOOTX64.efi</string>\nIn addition to DefaultVolume above, the path of the loader can be specified as DefaultLoader. This provides more precise default entry selection for Volumes that have multiple Loaders. The value can be the complete path or a unique portion like like file name."; ObjectID = "uqt-fc-Hj8"; */
+"uqt-fc-Hj8.ibShadowedToolTip" = "<key>DefaultLoader</key>\n<string>BOOTX64.efi</string>\n\n除了上面的DefaultVolume之外，加载器的路径可以指定为DefaultLoader。这为具有多个引导其的卷提供了更精确的默认条目选择。值可以是完整路径或类似文件名的唯一部分。";
+
+/* Class = "NSComboBox"; ibShadowedToolTip = "<key>DefaultVolume</key>\n<string>MacHDD</string>\nDefaultVolume is used to specify which entry is the default boot entry in Clover GUI. See also DefaultLoader. It can be set to:\n\nVolume Name - The name of the volume. E.g. Macintosh.\nGUID - Globally Unique ID of the volume shown in Clover's boot, preboot or debug log. E.g. 57272A5A-7EFE-4404-9CDA-C33761D0DB3C.\nPart of Device Path - Also shown in Clover's logs. E.g. HD(1,GPT,57272A5A-7EFE-4404-9CDA-C33761D0DB3C,0x800,0xFF000).\nLastBootedVolume - The last booted volume will be set as default one in Clover GUI.\nOS X Startup Disk can be used to reboot into another volume, but for the following reboot DefaultVolume will be used again."; ObjectID = "W4Z-vf-9Gr"; */
+"W4Z-vf-9Gr.ibShadowedToolTip" = "<key>DefaultVolume</key>\n<string>MacHDD</string>\nDefaultVolume用于指定哪个条目是Clover GUI中的默认引导条目。另请参见DefaultLoader。它可以设置为：\n\n
+
+Volume Name - 卷的名称\n
+ 例如: Macintosh.\n
+GUID - Clover的引导，预引导或调试日志中显示的卷的全局唯一ID。例如。\n 57272A5A-7EFE-4404-9CDA-C33761D0DB3C。\n
+Part of Device Path - 也在Clover的日志中显示。\n例如: HD(1,GPT,57272A5A-7EFE-4404-9CDA-C33761D0DB3C,0x800,0xFF000).\n
+LastBootedVolume - 最后一个引导的卷将在Clover GUI中设置为默认卷。\n
+OS X启动盘可用于重新启动到另一个卷，但对于以下重新启动，将再次使用DefaultVolume。";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>Secure</key>\n<true/>\nSecure Boot protocol, a contorversial subject, will restrict the booting process to signed binaries only. By enabling this option in your BIOS, booting of many operating systems won't be possible anymore, except Windows 8, 2013 and some Linux distributions.\n\nThe aim is to use Clover while Secure Boot is enabled. Clover's binary will need to be signed and a certificate to be loaded."; ObjectID = "WsY-WH-EMR"; */
+"WsY-WH-EMR.ibShadowedToolTip" = "<key>Secure</key>\n<true/>\n\n安全引导协议是一个受控主体，它仅将引导过程限制为已签名的二进制文件。通过在BIOS中启用此选项，除了Windows 8,2013和某些Linux发行版之外，将无法再启动许多操作系统。\n
+目的是在启用安全启动时使用Clover。需要签署Clover的二进制文件并加载证书。";
+
+/* Class = "NSTableView"; ibShadowedToolTip = "<key>Arguments</key>\n<string>ARGUMENTS</string>\nAt this section you can add \"Boot Flags\" and \"Kernel Flags\" to be used by the system... Here we will list only Clover's proprietary \"Boot Flags\", different flags, like for example, npci=0x2000, npci=0x3000, darkwake=0, etc..., should work as expected...\n\n-v - Verbose Boot.\n-s - Boot OS X into Single User Mode.\n-x - Boot OS X into SafeBoot (Safe Mode).\nMountEFI=yes/diskX - Mount EFI partition at every boot or from disk X (X = disk number).\nLogLineCount=0 - Set maximum number of lines for log file, default 0 (no Limit).\nLogLocation=PATH - Set the path for the log files to be saved.\nLogEveryBoot=Yes/No\t- Save log files at every boot."; ObjectID = "WTT-ia-xfP"; */
+"WTT-ia-xfP.ibShadowedToolTip" = "<key>Arguments</key>\n<string>ARGUMENTS</string>\n\n在本节中，您可以添加系统使用的\"Boot Flags\"和\"Kernel Flags\"...这里我们将仅列出Clover专有的\"Boot Flags\"，不同的标志，例如，\nnpci = 0x2000，npci = 0x3000 ，darkwake = 0等......应该按预期工作......\n
+-v - 详细启动模式(啰嗦模式）。\n
+-s - 将OS X引导至单用户模式。\n
+-x - 将OS X引导至SafeBoot（安全模式）。\nMountEFI=yes/diskX - 每次启动或从中挂载EFI分区 X (X = disk number).\n
+LogLineCount=0 - 设置日志文件的最大行数，默认为0（无限制）。\n
+LogLocation=PATH - 设置要保存的日志文件的路径。\n
+LogEveryBoot=Yes/No	- 每次启动时保存日志文件。";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Strict Hibernation, requires  UEFI, a real NVRAM, a GPT with ESP and a hibernate mode 25"; ObjectID = "XaP-uv-pDa"; */
+"XaP-uv-pDa.ibShadowedToolTip" = "严格休眠，需要UEFI，真正的NVRAM，带ESP的GPT和休眠模式25";
+
+/* Class = "NSButton"; ibShadowedToolTip = "<key>Fast</key>\n<true/>\nSimilar to setting Timeout to 0 but: * nvram.plist will be searched only until first occurrence * does not search for the best video mode * does not load themes and graphics * no chance to enter the GUI\n\nHaving this parameter enabled might not really have any big effect.\nInstead, you can try a custom compilation: * disable GUI in CloverEFI (3 seconds difference) * only search for Sata0 drivers (9 seconds difference)"; ObjectID = "XJt-ur-AbR"; */
+"XJt-ur-AbR.ibShadowedToolTip" = "<key>Fast</key>\n<true/>\n\n类似于将Timeout设置为0但是：* nvram.plist将仅搜索，直到第一次出现*不搜索最佳视频模式*不加载主题和图形*没有机会进入GUI\n\n
+
+启用此参数可能不会产生任何重大影响。\n
+相反，您可以尝试自定义编译：*在CloverEFI中禁用GUI（3秒差异）*仅搜索Sata0驱动程序（9秒差异）";
+
+/* Class = "NSTableColumn"; headerCell.title = "Boot Arguments (right click context menu)"; ObjectID = "Ydc-N3-vnt"; */
+"Ydc-N3-vnt.headerCell.title" = "Boot Arguments(鼠标右键查看更多的参数)）";
+
